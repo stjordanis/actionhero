@@ -26,8 +26,11 @@ export class Process {
   loadInitializers: Array<Function>;
   startInitializers: Array<Function>;
   stopInitializers: Array<Function>;
-  _startingParams: {
-    [key: string]: any;
+  plugins: {
+    [name: string]: {
+      path: string;
+      [key: string]: any;
+    };
   };
 
   constructor() {
@@ -35,15 +38,16 @@ export class Process {
     this.loadInitializers = [];
     this.startInitializers = [];
     this.stopInitializers = [];
+    this.plugins = {};
 
     this.startCount = 0;
 
-    api.commands.initialize = async (...args): Promise<Api | void> => {
-      return this.initialize(...args);
+    api.commands.initialize = async (): Promise<Api | void> => {
+      return this.initialize();
     };
 
-    api.commands.start = async (...args): Promise<Api | void> => {
-      return this.start(...args);
+    api.commands.start = async (): Promise<Api | void> => {
+      return this.start();
     };
 
     api.commands.stop = async () => {
@@ -57,16 +61,23 @@ export class Process {
     api.process = this;
   }
 
-  async initialize(params: object = {}) {
-    this._startingParams = params;
+  /**
+   * Add a plugin
+   * @param name
+   * @param object
+   */
+  addPlugin(name: string, object: { path: string; [key: string]: any }) {
+    this.plugins[name] = object;
+  }
 
+  async initialize() {
     const loadInitializerRankings = {};
     const startInitializerRankings = {};
     const stopInitializerRankings = {};
     let initializerFiles: Array<string> = [];
 
     // rebuild config with startingParams
-    config = buildConfig(this._startingParams);
+    config = buildConfig();
 
     // load initializers from core
     initializerFiles = initializerFiles.concat(
@@ -83,26 +94,22 @@ export class Process {
     });
 
     // load initializers from plugins
-    for (const pluginName in config.plugins) {
-      if (config.plugins[pluginName] !== false) {
-        const pluginPath: string = path.normalize(
-          config.plugins[pluginName].path
-        );
+    for (const pluginName in this.plugins) {
+      const pluginPath: string = path.normalize(this.plugins[pluginName].path);
 
-        if (!fs.existsSync(pluginPath)) {
-          throw new Error(`plugin path does not exist: ${pluginPath}`);
-        }
-
-        // old style at the root of the project
-        initializerFiles = initializerFiles.concat(
-          glob.sync(path.join(pluginPath, "initializers", "**", "*.js"))
-        );
-
-        // new TS dist files
-        initializerFiles = initializerFiles.concat(
-          glob.sync(path.join(pluginPath, "dist", "initializers", "**", "*.js"))
-        );
+      if (!fs.existsSync(pluginPath)) {
+        throw new Error(`plugin path does not exist: ${pluginPath}`);
       }
+
+      // old style at the root of the project
+      initializerFiles = initializerFiles.concat(
+        glob.sync(path.join(pluginPath, "initializers", "**", "*.js"))
+      );
+
+      // new TS dist files
+      initializerFiles = initializerFiles.concat(
+        glob.sync(path.join(pluginPath, "dist", "initializers", "**", "*.js"))
+      );
     }
 
     initializerFiles = utils.arrayUnique(initializerFiles);
@@ -149,7 +156,9 @@ export class Process {
             log(`Loading initializer: ${initializer.name}`, "debug", file);
 
             try {
-              await initializer.initialize(config);
+              await initializer.initialize(
+                Object.assign(config, { plugins: this.plugins })
+              );
               try {
                 log(`Loaded initializer: ${initializer.name}`, "debug", file);
               } catch (e) {}
@@ -228,13 +237,13 @@ export class Process {
     });
 
     // flatten all the ordered initializer methods
-    this.loadInitializers = this.flattenOrderedInitialzer(
+    this.loadInitializers = this.flattenOrderedInitializer(
       loadInitializerRankings
     );
-    this.startInitializers = this.flattenOrderedInitialzer(
+    this.startInitializers = this.flattenOrderedInitializer(
       startInitializerRankings
     );
-    this.stopInitializers = this.flattenOrderedInitialzer(
+    this.stopInitializers = this.flattenOrderedInitializer(
       stopInitializerRankings
     );
 
@@ -248,9 +257,9 @@ export class Process {
     return api;
   }
 
-  async start(params = {}) {
+  async start() {
     if (this.initialized !== true) {
-      await this.initialize(params);
+      await this.initialize();
     }
 
     writePidFile();
@@ -314,9 +323,9 @@ export class Process {
   async restart() {
     if (this.running === true) {
       await this.stop();
-      await this.start(this._startingParams);
+      await this.start();
     } else {
-      await this.start(this._startingParams);
+      await this.start();
     }
     return api;
   }
@@ -340,7 +349,7 @@ export class Process {
     }
   }
 
-  flattenOrderedInitialzer(collection: any) {
+  flattenOrderedInitializer(collection: any) {
     const output = [];
     const keys = [];
     for (const key in collection) {

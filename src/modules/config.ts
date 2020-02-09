@@ -3,6 +3,7 @@ import * as path from "path";
 import * as glob from "glob";
 import { argv } from "optimist";
 import { utils } from "./utils";
+import * as dotProp from "dot-prop";
 import { ensureNoTsHeaderFiles } from "./utils/ensureNoTsHeaderFiles";
 
 import { env } from "./../classes/process/env";
@@ -12,11 +13,12 @@ import { typescript } from "./../classes/process/typescript";
 import { projectRoot } from "./../classes/process/projectRoot";
 
 export interface ConfigInterface {
+  set?: Function;
   [key: string]: any;
 }
 export const configPaths = [];
 
-export function buildConfig(_startingParams: ConfigInterface = {}) {
+export function buildConfig() {
   let config: ConfigInterface = {
     process: {
       env,
@@ -27,7 +29,6 @@ export function buildConfig(_startingParams: ConfigInterface = {}) {
     }
   };
 
-  utils.hashMerge(config, _startingParams);
   // We support multiple configuration paths as follows:
   //
   // 1. Use the project 'config' folder, if it exists.
@@ -187,11 +188,6 @@ export function buildConfig(_startingParams: ConfigInterface = {}) {
   // load the project specific config
   configPaths.map(p => loadConfigDirectory(p, false));
 
-  // apply any configChanges
-  if (_startingParams && _startingParams.configChanges) {
-    config = utils.hashMerge(config, _startingParams.configChanges);
-  }
-
   if (process.env.configChanges) {
     config = utils.hashMerge(config, JSON.parse(process.env.configChanges));
   }
@@ -204,3 +200,12 @@ export function buildConfig(_startingParams: ConfigInterface = {}) {
 }
 
 export const config = buildConfig();
+
+/**
+ * Add additional config options programtically
+ * Use dot notion to set keys, ie config.set('general.paths', {...})
+ */
+config.set = function(key: string, data: ConfigInterface) {
+  dotProp.set(config, key, data);
+  return config;
+};

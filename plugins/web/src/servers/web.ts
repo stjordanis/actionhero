@@ -10,7 +10,7 @@ import * as Mime from "mime";
 import * as uuid from "uuid";
 import * as etag from "etag";
 import { BrowserFingerprint } from "browser_fingerprint";
-import { api, config, utils, Server, Connection } from "../index";
+import { api, config, utils, Server, Connection } from "../../../../";
 
 export class WebServer extends Server {
   server: any;

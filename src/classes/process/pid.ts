@@ -5,11 +5,11 @@ import { config } from "./../../modules/config";
 import { id } from "./id";
 
 function sanitizeId() {
-  let pidfile = String(id).trim();
-  pidfile = pidfile.replace(new RegExp(":", "g"), "-");
-  pidfile = pidfile.replace(new RegExp(" ", "g"), "_");
+  let pidFile = String(id).trim();
+  pidFile = pidFile.replace(new RegExp(":", "g"), "-");
+  pidFile = pidFile.replace(new RegExp(" ", "g"), "_");
 
-  return pidfile;
+  return pidFile;
 }
 
 export const pid = process.pid;
@@ -33,6 +33,6 @@ export function clearPidFile() {
   try {
     fs.unlinkSync(path + "/" + title);
   } catch (error) {
-    log("Unable to remove pidfile", "error", error);
+    log("Unable to remove pidFile", "error", error);
   }
 }

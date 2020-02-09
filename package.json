@@ -1,5 +1,5 @@
 {
-  "author": "Evan Tahler <evantahler@gmail.com>",
+  "author": "Evan Tahler <evan@delicioushat.com>",
   "name": "actionhero",
   "description": "actionhero.js is a multi-transport API Server with integrated cluster capabilities and delayed tasks",
   "version": "21.0.15",
@@ -66,9 +66,6 @@
     "typescript": "^3.7.5"
   },
   "optionalDependencies": {},
-  "bin": {
-    "actionhero": "./dist/bin/actionhero.js"
-  },
   "jest": {
     "testPathIgnorePatterns": [
       "<rootDir>/__tests__/testPlugin"
@@ -82,8 +79,8 @@
     "test": "jest",
     "prepare": "npm run build && npm run docs",
     "pretest": "npm run lint && npm run build",
-    "dev": "ts-node-dev --transpile-only --no-deps ./src/bin/actionhero",
-    "start": "node ./dist/bin/actionhero",
+    "dev": "ts-node-dev --transpile-only --no-deps ./src/server",
+    "start": "node ./dist/server.js",
     "build": "rm -rf dist && ./node_modules/.bin/tsc --declaration",
     "docs": "typedoc --out docs --theme default --mode file",
     "lint": "prettier --check src/**/*.ts __test__/**/*.ts examples/**/*.ts config",
