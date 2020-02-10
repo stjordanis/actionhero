@@ -1,0 +1,44 @@
+{
+  "author": "Evan Tahler <evan@delicioushat.com>",
+  "name": "@actionhero/example",
+  "description": "An example actionhero project",
+  "version": "0.0.0",
+  "homepage": "http://www.actionherojs.com",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/actionhero/actionhero.git"
+  },
+  "dependencies": {
+    "@actionhero/core": "./../core",
+    "@actionhero/web": "./../web",
+    "@actionhero/websocket": "./../websocket",
+    "ioredis": "^4.14.1",
+    "winston": "^3.2.1",
+    "ws": "^7.2.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^25.1.2",
+    "@types/node": "^13.7.0",
+    "jest": "^25.1.0",
+    "prettier": "^1.19.1",
+    "ts-jest": "^25.2.0",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "typescript": "^3.7.5"
+  },
+  "optionalDependencies": {},
+  "jest": {
+    "transform": {
+      "^.+\\.ts?$": "ts-jest"
+    }
+  },
+  "scripts": {
+    "test": "jest",
+    "prepare": "npm run build",
+    "pretest": "npm run lint && npm run build",
+    "dev": "ts-node-dev --transpile-only --no-deps ./src/server",
+    "build": "rm -rf dist && ./node_modules/.bin/tsc --declaration",
+    "lint": "prettier --check src/**/*.ts __test__/**/*.ts",
+    "pretty": "prettier --write src/**/*.ts __test__/**/*.ts"
+  }
+}

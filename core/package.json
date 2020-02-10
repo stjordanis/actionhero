@@ -1,0 +1,82 @@
+{
+  "author": "Evan Tahler <evan@delicioushat.com>",
+  "name": "@actionhero/core",
+  "description": "actionhero.js is a multi-transport API Server with integrated cluster capabilities and delayed tasks",
+  "version": "22.0.0",
+  "homepage": "http://www.actionherojs.com",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/actionhero/actionhero.git"
+  },
+  "main": "dist/index",
+  "types": "dist/index",
+  "keywords": [
+    "api",
+    "realtime",
+    "socket",
+    "http",
+    "https",
+    "web",
+    "game",
+    "cluster",
+    "soa",
+    "action",
+    "task",
+    "delay",
+    "service",
+    "tcp"
+  ],
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "dependencies": {
+    "dot-prop": "^5.2.0",
+    "formidable": "^1.2.1",
+    "glob": "^7.1.6",
+    "i18n": "^0.8.5",
+    "ioredis": "^4.14.1",
+    "is-running": "^2.1.0",
+    "mime": "^2.4.4",
+    "node-resque": "^6.0.7",
+    "optimist": "^0.6.1",
+    "uuid": "^3.4.0",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "@types/glob": "^7.1.1",
+    "@types/ioredis": "^4.14.7",
+    "@types/jest": "^25.1.2",
+    "@types/node": "^13.7.0",
+    "@types/uuid": "^3.4.7",
+    "jest": "^25.1.0",
+    "jest-environment-webdriver": "^0.2.0",
+    "prettier": "^1.19.1",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.8",
+    "ts-jest": "^25.2.0",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "typedoc": "^0.16.9",
+    "typescript": "^3.7.5"
+  },
+  "optionalDependencies": {},
+  "jest": {
+    "testPathIgnorePatterns": [
+      "<rootDir>/__tests__/testPlugin"
+    ],
+    "transform": {
+      "^.+\\.ts?$": "ts-jest"
+    }
+  },
+  "scripts": {
+    "postinstall": "echo 'To generate a new actionhero project, run \"npx actionhero generate\"'",
+    "test": "jest",
+    "prepare": "npm run build && npm run docs",
+    "pretest": "npm run lint && npm run build",
+    "start": "node ./dist/example.js",
+    "build": "rm -rf dist && ./node_modules/.bin/tsc --declaration",
+    "docs": "typedoc --out docs --theme default --mode file",
+    "lint": "prettier --check src/**/*.ts __test__/**/*.ts examples/**/*.ts config",
+    "pretty": "prettier --write src/**/*.ts __test__/**/*.ts examples/**/*.ts config"
+  }
+}

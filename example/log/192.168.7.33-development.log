@@ -1,0 +1,525 @@
+{"level":"notice","message":"pid: 43382","timestamp":"2020-02-09T23:24:01.237Z"}
+{"level":"notice","message":"environment: development","timestamp":"2020-02-09T23:24:01.239Z"}
+{"level":"info","message":"*** Starting ActionHero ***","timestamp":"2020-02-09T23:24:01.239Z"}
+{"level":"info","message":"actionhero member 192.168.7.33 has joined the cluster","timestamp":"2020-02-09T23:24:01.241Z"}
+{"level":"notice","message":"server ID: 192.168.7.33","timestamp":"2020-02-09T23:24:01.245Z"}
+{"level":"notice","message":"*** ActionHero Started ***","timestamp":"2020-02-09T23:24:01.245Z"}
+{"level":"notice","message":"stopping process...","timestamp":"2020-02-09T23:24:09.194Z"}
+{"level":"notice","message":"*** ActionHero Stopped ***","timestamp":"2020-02-09T23:24:09.298Z"}
+{"level":"notice","message":"pid: 43487","timestamp":"2020-02-09T23:24:11.741Z"}
+{"level":"notice","message":"environment: development","timestamp":"2020-02-09T23:24:11.744Z"}
+{"level":"info","message":"*** Starting ActionHero ***","timestamp":"2020-02-09T23:24:11.744Z"}
+{"level":"info","message":"actionhero member 192.168.7.33 has joined the cluster","timestamp":"2020-02-09T23:24:11.746Z"}
+{"level":"notice","message":"server ID: 192.168.7.33","timestamp":"2020-02-09T23:24:11.749Z"}
+{"level":"notice","message":"*** ActionHero Started ***","timestamp":"2020-02-09T23:24:11.749Z"}
+{"level":"notice","message":"stopping process...","timestamp":"2020-02-09T23:24:12.366Z"}
+{"level":"notice","message":"*** ActionHero Stopped ***","timestamp":"2020-02-09T23:24:12.470Z"}
+{"level":"notice","message":"pid: 44941","timestamp":"2020-02-10T04:53:10.704Z"}
+{"level":"notice","message":"environment: development","timestamp":"2020-02-10T04:53:10.706Z"}
+{"level":"info","message":"*** Starting ActionHero ***","timestamp":"2020-02-10T04:53:10.707Z"}
+{"level":"info","message":"actionhero member 192.168.7.33 has joined the cluster","timestamp":"2020-02-10T04:53:10.709Z"}
+{"level":"notice","message":"server ID: 192.168.7.33","timestamp":"2020-02-10T04:53:10.712Z"}
+{"level":"notice","message":"*** ActionHero Started ***","timestamp":"2020-02-10T04:53:10.713Z"}
+{"level":"notice","message":"stopping process...","timestamp":"2020-02-10T04:53:13.815Z"}
+{"level":"notice","message":"*** ActionHero Stopped ***","timestamp":"2020-02-10T04:53:13.922Z"}
+{"level":"notice","message":"pid: 45044","timestamp":"2020-02-10T04:53:17.223Z"}
+{"level":"notice","message":"environment: development","timestamp":"2020-02-10T04:53:17.225Z"}
+{"level":"info","message":"*** Starting ActionHero ***","timestamp":"2020-02-10T04:53:17.225Z"}
+{"level":"info","message":"actionhero member 192.168.7.33 has joined the cluster","timestamp":"2020-02-10T04:53:17.227Z"}
+{"level":"notice","message":"server ID: 192.168.7.33","timestamp":"2020-02-10T04:53:17.230Z"}
+{"level":"notice","message":"*** ActionHero Started ***","timestamp":"2020-02-10T04:53:17.231Z"}
+{"level":"notice","message":"stopping process...","timestamp":"2020-02-10T04:53:18.226Z"}
+{"level":"notice","message":"*** ActionHero Stopped ***","timestamp":"2020-02-10T04:53:18.330Z"}
+{"level":"notice","message":"pid: 45216","timestamp":"2020-02-10T04:54:28.271Z"}
+{"level":"notice","message":"environment: development","timestamp":"2020-02-10T04:54:28.273Z"}
+{"level":"info","message":"*** Starting ActionHero ***","timestamp":"2020-02-10T04:54:28.273Z"}
+{"level":"info","message":"actionhero member 192.168.7.33 has joined the cluster","timestamp":"2020-02-10T04:54:28.275Z"}
+{"level":"notice","message":"server ID: 192.168.7.33","timestamp":"2020-02-10T04:54:28.278Z"}
+{"level":"notice","message":"*** ActionHero Started ***","timestamp":"2020-02-10T04:54:28.278Z"}
+{"level":"notice","message":"stopping process...","timestamp":"2020-02-10T04:54:29.560Z"}
+{"level":"notice","message":"*** ActionHero Stopped ***","timestamp":"2020-02-10T04:54:29.664Z"}
+{"level":"notice","message":"pid: 45547","timestamp":"2020-02-10T04:54:49.658Z"}
+{"level":"notice","message":"environment: development","timestamp":"2020-02-10T04:54:49.661Z"}
+{"level":"info","message":"*** Starting ActionHero ***","timestamp":"2020-02-10T04:54:49.662Z"}
+{"level":"info","message":"actionhero member 192.168.7.33 has joined the cluster","timestamp":"2020-02-10T04:54:49.663Z"}
+{"level":"notice","message":"server ID: 192.168.7.33","timestamp":"2020-02-10T04:54:49.666Z"}
+{"level":"notice","message":"*** ActionHero Started ***","timestamp":"2020-02-10T04:54:49.667Z"}
+{"level":"notice","message":"stopping process...","timestamp":"2020-02-10T04:55:02.820Z"}
+{"level":"notice","message":"*** ActionHero Stopped ***","timestamp":"2020-02-10T04:55:02.927Z"}
+{"level":"notice","message":"pid: 45849","timestamp":"2020-02-10T04:56:18.133Z"}
+{"level":"notice","message":"environment: development","timestamp":"2020-02-10T04:56:18.134Z"}
+{"level":"info","message":"*** Starting ActionHero ***","timestamp":"2020-02-10T04:56:18.134Z"}
+{"level":"info","message":"actionhero member 192.168.7.33 has joined the cluster","timestamp":"2020-02-10T04:56:18.135Z"}
+{"level":"notice","message":"server ID: 192.168.7.33","timestamp":"2020-02-10T04:56:18.138Z"}
+{"level":"notice","message":"*** ActionHero Started ***","timestamp":"2020-02-10T04:56:18.139Z"}
+{"level":"notice","message":"stopping process...","timestamp":"2020-02-10T04:56:19.176Z"}
+{"level":"notice","message":"*** ActionHero Stopped ***","timestamp":"2020-02-10T04:56:19.281Z"}
+{"level":"notice","message":"pid: 46119","timestamp":"2020-02-10T04:57:43.804Z"}
+{"level":"notice","message":"environment: development","timestamp":"2020-02-10T04:57:43.805Z"}
+{"level":"info","message":"*** Starting ActionHero ***","timestamp":"2020-02-10T04:57:43.805Z"}
+{"level":"info","message":"actionhero member 192.168.7.33 has joined the cluster","timestamp":"2020-02-10T04:57:43.806Z"}
+{"level":"notice","message":"server ID: 192.168.7.33","timestamp":"2020-02-10T04:57:43.809Z"}
+{"level":"notice","message":"*** ActionHero Started ***","timestamp":"2020-02-10T04:57:43.809Z"}
+{"level":"notice","message":"stopping process...","timestamp":"2020-02-10T04:58:30.719Z"}
+{"level":"notice","message":"*** ActionHero Stopped ***","timestamp":"2020-02-10T04:58:30.823Z"}
+{"level":"notice","message":"pid: 46385","timestamp":"2020-02-10T04:58:38.924Z"}
+{"level":"notice","message":"environment: development","timestamp":"2020-02-10T04:58:38.925Z"}
+{"level":"info","message":"*** Starting ActionHero ***","timestamp":"2020-02-10T04:58:38.925Z"}
+{"level":"info","message":"actionhero member 192.168.7.33 has joined the cluster","timestamp":"2020-02-10T04:58:38.927Z"}
+{"level":"notice","message":"server ID: 192.168.7.33","timestamp":"2020-02-10T04:58:38.930Z"}
+{"level":"notice","message":"*** ActionHero Started ***","timestamp":"2020-02-10T04:58:38.931Z"}
+{"level":"notice","message":"stopping process...","timestamp":"2020-02-10T04:58:51.467Z"}
+{"level":"notice","message":"*** ActionHero Stopped ***","timestamp":"2020-02-10T04:58:51.571Z"}
+{"level":"notice","message":"pid: 46534","timestamp":"2020-02-10T04:59:12.073Z"}
+{"level":"notice","message":"environment: development","timestamp":"2020-02-10T04:59:12.074Z"}
+{"level":"info","message":"*** Starting ActionHero ***","timestamp":"2020-02-10T04:59:12.075Z"}
+{"level":"info","message":"actionhero member 192.168.7.33 has joined the cluster","timestamp":"2020-02-10T04:59:12.076Z"}
+{"level":"notice","message":"server ID: 192.168.7.33","timestamp":"2020-02-10T04:59:12.079Z"}
+{"level":"notice","message":"*** ActionHero Started ***","timestamp":"2020-02-10T04:59:12.079Z"}
+{"level":"notice","message":"stopping process...","timestamp":"2020-02-10T04:59:24.415Z"}
+{"level":"notice","message":"*** ActionHero Stopped ***","timestamp":"2020-02-10T04:59:24.520Z"}
+{"level":"notice","message":"pid: 46562","timestamp":"2020-02-10T04:59:24.974Z"}
+{"level":"notice","message":"environment: development","timestamp":"2020-02-10T04:59:24.975Z"}
+{"level":"info","message":"*** Starting ActionHero ***","timestamp":"2020-02-10T04:59:24.975Z"}
+{"level":"info","message":"actionhero member 192.168.7.33 has joined the cluster","timestamp":"2020-02-10T04:59:24.977Z"}
+{"level":"notice","message":"server ID: 192.168.7.33","timestamp":"2020-02-10T04:59:24.979Z"}
+{"level":"notice","message":"*** ActionHero Started ***","timestamp":"2020-02-10T04:59:24.980Z"}
+{"level":"notice","message":"stopping process...","timestamp":"2020-02-10T04:59:27.126Z"}
+{"level":"notice","message":"*** ActionHero Stopped ***","timestamp":"2020-02-10T04:59:27.230Z"}
+{"level":"notice","message":"pid: 46662","timestamp":"2020-02-10T04:59:29.264Z"}
+{"level":"notice","message":"environment: development","timestamp":"2020-02-10T04:59:29.265Z"}
+{"level":"info","message":"*** Starting ActionHero ***","timestamp":"2020-02-10T04:59:29.265Z"}
+{"level":"info","message":"actionhero member 192.168.7.33 has joined the cluster","timestamp":"2020-02-10T04:59:29.267Z"}
+{"level":"notice","message":"server ID: 192.168.7.33","timestamp":"2020-02-10T04:59:29.270Z"}
+{"level":"notice","message":"*** ActionHero Started ***","timestamp":"2020-02-10T04:59:29.270Z"}
+{"level":"notice","message":"stopping process...","timestamp":"2020-02-10T04:59:29.803Z"}
+{"level":"notice","message":"*** ActionHero Stopped ***","timestamp":"2020-02-10T04:59:29.907Z"}
+{"level":"notice","message":"pid: 46919","timestamp":"2020-02-10T05:00:37.242Z"}
+{"level":"notice","message":"environment: development","timestamp":"2020-02-10T05:00:37.243Z"}
+{"level":"info","message":"*** Starting ActionHero ***","timestamp":"2020-02-10T05:00:37.244Z"}
+{"level":"info","message":"actionhero member 192.168.7.33 has joined the cluster","timestamp":"2020-02-10T05:00:37.245Z"}
+{"level":"notice","message":"server ID: 192.168.7.33","timestamp":"2020-02-10T05:00:37.248Z"}
+{"level":"notice","message":"*** ActionHero Started ***","timestamp":"2020-02-10T05:00:37.248Z"}
+{"level":"notice","message":"stopping process...","timestamp":"2020-02-10T05:00:40.024Z"}
+{"level":"notice","message":"*** ActionHero Stopped ***","timestamp":"2020-02-10T05:00:40.127Z"}
+{"level":"notice","message":"pid: 47090","timestamp":"2020-02-10T05:01:21.542Z"}
+{"level":"notice","message":"environment: development","timestamp":"2020-02-10T05:01:21.544Z"}
+{"level":"info","message":"*** Starting ActionHero ***","timestamp":"2020-02-10T05:01:21.544Z"}
+{"level":"info","message":"actionhero member 192.168.7.33 has joined the cluster","timestamp":"2020-02-10T05:01:21.545Z"}
+{"level":"notice","message":"server ID: 192.168.7.33","timestamp":"2020-02-10T05:01:21.548Z"}
+{"level":"notice","message":"*** ActionHero Started ***","timestamp":"2020-02-10T05:01:21.548Z"}
+{"level":"notice","message":"stopping process...","timestamp":"2020-02-10T05:01:22.227Z"}
+{"level":"notice","message":"*** ActionHero Stopped ***","timestamp":"2020-02-10T05:01:22.332Z"}
+{"level":"notice","message":"pid: 47293","timestamp":"2020-02-10T05:01:29.999Z"}
+{"level":"notice","message":"environment: development","timestamp":"2020-02-10T05:01:30.000Z"}
+{"level":"info","message":"*** Starting ActionHero ***","timestamp":"2020-02-10T05:01:30.000Z"}
+{"level":"info","message":"actionhero member 192.168.7.33 has joined the cluster","timestamp":"2020-02-10T05:01:30.002Z"}
+{"level":"notice","message":"server ID: 192.168.7.33","timestamp":"2020-02-10T05:01:30.006Z"}
+{"level":"notice","message":"*** ActionHero Started ***","timestamp":"2020-02-10T05:01:30.006Z"}
+{"level":"notice","message":"stopping process...","timestamp":"2020-02-10T05:01:33.207Z"}
+{"level":"notice","message":"*** ActionHero Stopped ***","timestamp":"2020-02-10T05:01:33.312Z"}
+{"level":"notice","message":"pid: 47564","timestamp":"2020-02-10T05:03:06.051Z"}
+{"level":"notice","message":"environment: development","timestamp":"2020-02-10T05:03:06.053Z"}
+{"level":"info","message":"*** Starting ActionHero ***","timestamp":"2020-02-10T05:03:06.053Z"}
+{"level":"info","message":"actionhero member 192.168.7.33 has joined the cluster","timestamp":"2020-02-10T05:03:06.055Z"}
+{"level":"notice","message":"server ID: 192.168.7.33","timestamp":"2020-02-10T05:03:06.058Z"}
+{"level":"notice","message":"*** ActionHero Started ***","timestamp":"2020-02-10T05:03:06.058Z"}
+{"level":"notice","message":"stopping process...","timestamp":"2020-02-10T05:03:19.911Z"}
+{"level":"notice","message":"*** ActionHero Stopped ***","timestamp":"2020-02-10T05:03:20.019Z"}
+{"level":"notice","message":"pid: 47686","timestamp":"2020-02-10T05:03:22.160Z"}
+{"level":"notice","message":"environment: development","timestamp":"2020-02-10T05:03:22.162Z"}
+{"level":"info","message":"*** Starting ActionHero ***","timestamp":"2020-02-10T05:03:22.163Z"}
+{"level":"info","message":"actionhero member 192.168.7.33 has joined the cluster","timestamp":"2020-02-10T05:03:22.164Z"}
+{"level":"notice","message":"server ID: 192.168.7.33","timestamp":"2020-02-10T05:03:22.167Z"}
+{"level":"notice","message":"*** ActionHero Started ***","timestamp":"2020-02-10T05:03:22.167Z"}
+{"level":"notice","message":"stopping process...","timestamp":"2020-02-10T05:03:23.792Z"}
+{"level":"notice","message":"*** ActionHero Stopped ***","timestamp":"2020-02-10T05:03:23.898Z"}
+{"level":"notice","message":"pid: 47892","timestamp":"2020-02-10T05:03:30.489Z"}
+{"level":"notice","message":"environment: development","timestamp":"2020-02-10T05:03:30.491Z"}
+{"level":"info","message":"*** Starting ActionHero ***","timestamp":"2020-02-10T05:03:30.491Z"}
+{"level":"info","message":"actionhero member 192.168.7.33 has joined the cluster","timestamp":"2020-02-10T05:03:30.492Z"}
+{"level":"notice","message":"server ID: 192.168.7.33","timestamp":"2020-02-10T05:03:30.495Z"}
+{"level":"notice","message":"*** ActionHero Started ***","timestamp":"2020-02-10T05:03:30.495Z"}
+{"level":"notice","message":"stopping process...","timestamp":"2020-02-10T05:04:27.232Z"}
+{"level":"notice","message":"*** ActionHero Stopped ***","timestamp":"2020-02-10T05:04:27.337Z"}
+{"level":"notice","message":"pid: 48107","timestamp":"2020-02-10T05:04:34.786Z"}
+{"level":"notice","message":"environment: development","timestamp":"2020-02-10T05:04:34.787Z"}
+{"level":"info","message":"*** Starting ActionHero ***","timestamp":"2020-02-10T05:04:34.787Z"}
+{"level":"info","message":"actionhero member 192.168.7.33 has joined the cluster","timestamp":"2020-02-10T05:04:34.788Z"}
+{"level":"notice","message":"server ID: 192.168.7.33","timestamp":"2020-02-10T05:04:34.792Z"}
+{"level":"notice","message":"*** ActionHero Started ***","timestamp":"2020-02-10T05:04:34.792Z"}
+{"level":"notice","message":"stopping process...","timestamp":"2020-02-10T05:05:39.973Z"}
+{"level":"notice","message":"*** ActionHero Stopped ***","timestamp":"2020-02-10T05:05:40.077Z"}
+{"level":"notice","message":"pid: 48435","timestamp":"2020-02-10T05:05:47.410Z"}
+{"level":"notice","message":"environment: development","timestamp":"2020-02-10T05:05:47.411Z"}
+{"level":"info","message":"*** Starting ActionHero ***","timestamp":"2020-02-10T05:05:47.411Z"}
+{"level":"info","message":"actionhero member 192.168.7.33 has joined the cluster","timestamp":"2020-02-10T05:05:47.412Z"}
+{"level":"notice","message":"server ID: 192.168.7.33","timestamp":"2020-02-10T05:05:47.415Z"}
+{"level":"notice","message":"*** ActionHero Started ***","timestamp":"2020-02-10T05:05:47.415Z"}
+{"level":"notice","message":"stopping process...","timestamp":"2020-02-10T05:10:35.991Z"}
+{"level":"notice","message":"*** ActionHero Stopped ***","timestamp":"2020-02-10T05:10:36.097Z"}
+{"level":"notice","message":"pid: 49050","timestamp":"2020-02-10T05:10:44.991Z"}
+{"level":"notice","message":"environment: development","timestamp":"2020-02-10T05:10:44.994Z"}
+{"level":"info","message":"*** Starting ActionHero ***","timestamp":"2020-02-10T05:10:44.994Z"}
+{"level":"info","message":"actionhero member 192.168.7.33 has joined the cluster","timestamp":"2020-02-10T05:10:44.995Z"}
+{"level":"notice","message":"server ID: 192.168.7.33","timestamp":"2020-02-10T05:10:44.998Z"}
+{"level":"notice","message":"*** ActionHero Started ***","timestamp":"2020-02-10T05:10:44.999Z"}
+{"level":"notice","message":"stopping process...","timestamp":"2020-02-10T05:10:50.010Z"}
+{"level":"notice","message":"*** ActionHero Stopped ***","timestamp":"2020-02-10T05:10:50.119Z"}
+{"level":"notice","message":"pid: 49180","timestamp":"2020-02-10T05:11:12.855Z"}
+{"level":"notice","message":"environment: development","timestamp":"2020-02-10T05:11:12.857Z"}
+{"level":"info","message":"*** Starting ActionHero ***","timestamp":"2020-02-10T05:11:12.857Z"}
+{"level":"info","message":"actionhero member 192.168.7.33 has joined the cluster","timestamp":"2020-02-10T05:11:12.858Z"}
+{"level":"notice","message":"server ID: 192.168.7.33","timestamp":"2020-02-10T05:11:12.862Z"}
+{"level":"notice","message":"*** ActionHero Started ***","timestamp":"2020-02-10T05:11:12.862Z"}
+{"level":"notice","message":"stopping process...","timestamp":"2020-02-10T05:11:15.244Z"}
+{"level":"notice","message":"*** ActionHero Stopped ***","timestamp":"2020-02-10T05:11:15.352Z"}
+{"level":"notice","message":"pid: 49388","timestamp":"2020-02-10T05:11:24.868Z"}
+{"level":"notice","message":"environment: development","timestamp":"2020-02-10T05:11:24.869Z"}
+{"level":"info","message":"*** Starting ActionHero ***","timestamp":"2020-02-10T05:11:24.869Z"}
+{"level":"info","message":"actionhero member 192.168.7.33 has joined the cluster","timestamp":"2020-02-10T05:11:24.871Z"}
+{"level":"notice","message":"server ID: 192.168.7.33","timestamp":"2020-02-10T05:11:24.874Z"}
+{"level":"notice","message":"*** ActionHero Started ***","timestamp":"2020-02-10T05:11:24.874Z"}
+{"level":"notice","message":"stopping process...","timestamp":"2020-02-10T05:11:41.173Z"}
+{"level":"notice","message":"*** ActionHero Stopped ***","timestamp":"2020-02-10T05:11:41.281Z"}
+{"level":"notice","message":"pid: 49734","timestamp":"2020-02-10T05:12:31.665Z"}
+{"level":"notice","message":"environment: development","timestamp":"2020-02-10T05:12:31.666Z"}
+{"level":"info","message":"*** Starting ActionHero ***","timestamp":"2020-02-10T05:12:31.667Z"}
+{"level":"info","message":"actionhero member 192.168.7.33 has joined the cluster","timestamp":"2020-02-10T05:12:31.668Z"}
+{"level":"notice","message":"server ID: 192.168.7.33","timestamp":"2020-02-10T05:12:31.671Z"}
+{"level":"notice","message":"*** ActionHero Started ***","timestamp":"2020-02-10T05:12:31.671Z"}
+{"level":"notice","message":"stopping process...","timestamp":"2020-02-10T05:12:49.911Z"}
+{"level":"notice","message":"*** ActionHero Stopped ***","timestamp":"2020-02-10T05:12:50.018Z"}
+{"level":"notice","message":"pid: 49760","timestamp":"2020-02-10T05:12:50.501Z"}
+{"level":"notice","message":"environment: development","timestamp":"2020-02-10T05:12:50.503Z"}
+{"level":"info","message":"*** Starting ActionHero ***","timestamp":"2020-02-10T05:12:50.503Z"}
+{"level":"info","message":"actionhero member 192.168.7.33 has joined the cluster","timestamp":"2020-02-10T05:12:50.505Z"}
+{"level":"notice","message":"server ID: 192.168.7.33","timestamp":"2020-02-10T05:12:50.508Z"}
+{"level":"notice","message":"*** ActionHero Started ***","timestamp":"2020-02-10T05:12:50.508Z"}
+{"level":"notice","message":"stopping process...","timestamp":"2020-02-10T05:13:03.469Z"}
+{"level":"notice","message":"*** ActionHero Stopped ***","timestamp":"2020-02-10T05:13:03.576Z"}
+{"level":"notice","message":"pid: 49776","timestamp":"2020-02-10T05:13:04.030Z"}
+{"level":"notice","message":"environment: development","timestamp":"2020-02-10T05:13:04.031Z"}
+{"level":"info","message":"*** Starting ActionHero ***","timestamp":"2020-02-10T05:13:04.032Z"}
+{"level":"info","message":"actionhero member 192.168.7.33 has joined the cluster","timestamp":"2020-02-10T05:13:04.033Z"}
+{"level":"notice","message":"server ID: 192.168.7.33","timestamp":"2020-02-10T05:13:04.036Z"}
+{"level":"notice","message":"*** ActionHero Started ***","timestamp":"2020-02-10T05:13:04.036Z"}
+{"level":"notice","message":"stopping process...","timestamp":"2020-02-10T05:14:00.843Z"}
+{"level":"notice","message":"*** ActionHero Stopped ***","timestamp":"2020-02-10T05:14:00.954Z"}
+{"level":"notice","message":"pid: 49825","timestamp":"2020-02-10T05:14:01.398Z"}
+{"level":"notice","message":"environment: development","timestamp":"2020-02-10T05:14:01.399Z"}
+{"level":"info","message":"*** Starting ActionHero ***","timestamp":"2020-02-10T05:14:01.400Z"}
+{"level":"info","message":"actionhero member 192.168.7.33 has joined the cluster","timestamp":"2020-02-10T05:14:01.401Z"}
+{"level":"notice","message":"server ID: 192.168.7.33","timestamp":"2020-02-10T05:14:01.404Z"}
+{"level":"notice","message":"*** ActionHero Started ***","timestamp":"2020-02-10T05:14:01.404Z"}
+{"level":"notice","message":"stopping process...","timestamp":"2020-02-10T05:14:04.840Z"}
+{"level":"notice","message":"*** ActionHero Stopped ***","timestamp":"2020-02-10T05:14:04.950Z"}
+{"level":"notice","message":"pid: 49836","timestamp":"2020-02-10T05:14:05.380Z"}
+{"level":"notice","message":"environment: development","timestamp":"2020-02-10T05:14:05.381Z"}
+{"level":"info","message":"*** Starting ActionHero ***","timestamp":"2020-02-10T05:14:05.381Z"}
+{"level":"info","message":"actionhero member 192.168.7.33 has joined the cluster","timestamp":"2020-02-10T05:14:05.382Z"}
+{"level":"notice","message":"server ID: 192.168.7.33","timestamp":"2020-02-10T05:14:05.385Z"}
+{"level":"notice","message":"*** ActionHero Started ***","timestamp":"2020-02-10T05:14:05.385Z"}
+{"level":"notice","message":"stopping process...","timestamp":"2020-02-10T05:14:52.068Z"}
+{"level":"notice","message":"*** ActionHero Stopped ***","timestamp":"2020-02-10T05:14:52.172Z"}
+{"level":"notice","message":"pid: 49878","timestamp":"2020-02-10T05:14:52.621Z"}
+{"level":"notice","message":"environment: development","timestamp":"2020-02-10T05:14:52.622Z"}
+{"level":"info","message":"*** Starting ActionHero ***","timestamp":"2020-02-10T05:14:52.622Z"}
+{"level":"info","message":"actionhero member 192.168.7.33 has joined the cluster","timestamp":"2020-02-10T05:14:52.624Z"}
+{"level":"notice","message":"server ID: 192.168.7.33","timestamp":"2020-02-10T05:14:52.626Z"}
+{"level":"notice","message":"*** ActionHero Started ***","timestamp":"2020-02-10T05:14:52.627Z"}
+{"level":"notice","message":"stopping process...","timestamp":"2020-02-10T05:15:02.969Z"}
+{"level":"notice","message":"*** ActionHero Stopped ***","timestamp":"2020-02-10T05:15:03.075Z"}
+{"level":"emerg","message":"Exception occurred in initializer `servers` during load","timestamp":"2020-02-10T05:15:03.695Z"}
+{"level":"emerg","message":"Error with initializer step: \"initialize\"","timestamp":"2020-02-10T05:15:03.696Z"}
+{"level":"emerg","message":"Error: Cannot find module 'mime'\nRequire stack:\n- /Users/evan/workspace/actionhero/actionhero/web/dist/servers/web.js\n- /Users/evan/workspace/actionhero/actionhero/core/dist/initializers/servers.js\n- /Users/evan/workspace/actionhero/actionhero/core/dist/classes/process.js\n- /Users/evan/workspace/actionhero/actionhero/core/dist/index.js\n- /Users/evan/workspace/actionhero/actionhero/example/src/server.ts\n    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:793:17)\n    at Function.Module._load (internal/modules/cjs/loader.js:686:27)\n    at Module.require (internal/modules/cjs/loader.js:848:19)\n    at require (internal/modules/cjs/helpers.js:74:18)\n    at Object.<anonymous> (/Users/evan/workspace/actionhero/actionhero/web/dist/servers/web.js:11:14)\n    at Module._compile (internal/modules/cjs/loader.js:955:30)\n    at Module._compile (/Users/evan/workspace/actionhero/actionhero/example/node_modules/source-map-support/source-map-support.js:541:25)\n    at Module.m._compile (/private/var/folders/r8/vz_8qsqs7632_c6s2rtg4ry80000gn/T/ts-node-dev-hook-32556102040310186.js:92:27)\n    at Module._extensions..js (internal/modules/cjs/loader.js:991:10)\n    at require.extensions..js (/private/var/folders/r8/vz_8qsqs7632_c6s2rtg4ry80000gn/T/ts-node-dev-hook-32556102040310186.js:95:14)","timestamp":"2020-02-10T05:15:03.716Z"}
+{"level":"error","message":"Cannot shut down actionhero, not running","timestamp":"2020-02-10T05:15:03.716Z"}
+{"level":"emerg","message":"Exception occurred in initializer `servers` during load","timestamp":"2020-02-10T05:17:49.930Z"}
+{"level":"emerg","message":"Error with initializer step: \"initialize\"","timestamp":"2020-02-10T05:17:49.931Z"}
+{"level":"emerg","message":"Error: Cannot find module 'primus'\nRequire stack:\n- /Users/evan/workspace/actionhero/actionhero/websocket/dist/servers/websocket.js\n- /Users/evan/workspace/actionhero/actionhero/core/dist/initializers/servers.js\n- /Users/evan/workspace/actionhero/actionhero/core/dist/classes/process.js\n- /Users/evan/workspace/actionhero/actionhero/core/dist/index.js\n- /Users/evan/workspace/actionhero/actionhero/example/src/server.ts\n    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:793:17)\n    at Function.Module._load (internal/modules/cjs/loader.js:686:27)\n    at Module.require (internal/modules/cjs/loader.js:848:19)\n    at require (internal/modules/cjs/helpers.js:74:18)\n    at Object.<anonymous> (/Users/evan/workspace/actionhero/actionhero/websocket/dist/servers/websocket.js:3:16)\n    at Module._compile (internal/modules/cjs/loader.js:955:30)\n    at Module._compile (/Users/evan/workspace/actionhero/actionhero/example/node_modules/source-map-support/source-map-support.js:541:25)\n    at Module.m._compile (/private/var/folders/r8/vz_8qsqs7632_c6s2rtg4ry80000gn/T/ts-node-dev-hook-9576760038554673.js:92:27)\n    at Module._extensions..js (internal/modules/cjs/loader.js:991:10)\n    at require.extensions..js (/private/var/folders/r8/vz_8qsqs7632_c6s2rtg4ry80000gn/T/ts-node-dev-hook-9576760038554673.js:95:14)","timestamp":"2020-02-10T05:17:49.943Z"}
+{"level":"error","message":"Cannot shut down actionhero, not running","timestamp":"2020-02-10T05:17:49.943Z"}
+{"level":"warning","message":"an existing server with the same type `web` will be overridden by the file /Users/evan/workspace/actionhero/actionhero/web/dist/servers/web.js","timestamp":"2020-02-10T05:19:03.177Z"}
+{"level":"warning","message":"an existing server with the same type `websocket` will be overridden by the file /Users/evan/workspace/actionhero/actionhero/websocket/dist/servers/websocket.js","timestamp":"2020-02-10T05:19:03.178Z"}
+{"level":"notice","message":"pid: 51326","timestamp":"2020-02-10T05:19:03.180Z"}
+{"level":"notice","message":"environment: development","timestamp":"2020-02-10T05:19:03.181Z"}
+{"level":"info","message":"*** Starting ActionHero ***","timestamp":"2020-02-10T05:19:03.181Z"}
+{"level":"info","message":"actionhero member 192.168.7.33 has joined the cluster","timestamp":"2020-02-10T05:19:03.183Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2020-02-10T05:19:03.186Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2020-02-10T05:19:03.189Z"}
+{"errno":-2,"syscall":"mkdir","code":"ENOENT","path":"/Users/evan/workspace/actionhero/actionhero/example/public/javascript/","level":"warning","message":"Cannot write client-side JS for websocket server:ENOENT: no such file or directory, mkdir '/Users/evan/workspace/actionhero/actionhero/example/public/javascript/'","stack":"Error: ENOENT: no such file or directory, mkdir '/Users/evan/workspace/actionhero/actionhero/example/public/javascript/'\n    at Object.mkdirSync (fs.js:823:3)\n    at WebSocketServer.writeClientJS (/Users/evan/workspace/actionhero/actionhero/websocket/dist/servers/websocket.js:166:24)\n    at WebSocketServer.start (/Users/evan/workspace/actionhero/actionhero/websocket/dist/servers/websocket.js:37:14)\n    at Servers.start (/Users/evan/workspace/actionhero/actionhero/core/dist/initializers/servers.js:75:30)\n    at processTicksAndRejections (internal/process/task_queues.js:94:5)\n    at Object.startFunction (/Users/evan/workspace/actionhero/actionhero/core/dist/classes/process.js:121:29)\n    at Object.asyncWaterfall (/Users/evan/workspace/actionhero/actionhero/core/dist/modules/utils/asyncWaterfall.js:46:23)\n    at Process.start (/Users/evan/workspace/actionhero/actionhero/core/dist/classes/process.js:197:13)\n    at main (/Users/evan/workspace/actionhero/actionhero/example/src/server.ts:31:3)","timestamp":"2020-02-10T05:19:03.229Z"}
+{"level":"emerg","message":"Exception occurred in initializer `servers` during start","timestamp":"2020-02-10T05:19:03.229Z"}
+{"level":"emerg","message":"Error with initializer step: \"start\"","timestamp":"2020-02-10T05:19:03.230Z"}
+{"level":"emerg","message":"Error: ENOENT: no such file or directory, mkdir '/Users/evan/workspace/actionhero/actionhero/example/public/javascript/'\n    at Object.mkdirSync (fs.js:823:3)\n    at WebSocketServer.writeClientJS (/Users/evan/workspace/actionhero/actionhero/websocket/dist/servers/websocket.js:166:24)\n    at WebSocketServer.start (/Users/evan/workspace/actionhero/actionhero/websocket/dist/servers/websocket.js:37:14)\n    at Servers.start (/Users/evan/workspace/actionhero/actionhero/core/dist/initializers/servers.js:75:30)\n    at processTicksAndRejections (internal/process/task_queues.js:94:5)\n    at Object.startFunction (/Users/evan/workspace/actionhero/actionhero/core/dist/classes/process.js:121:29)\n    at Object.asyncWaterfall (/Users/evan/workspace/actionhero/actionhero/core/dist/modules/utils/asyncWaterfall.js:46:23)\n    at Process.start (/Users/evan/workspace/actionhero/actionhero/core/dist/classes/process.js:197:13)\n    at main (/Users/evan/workspace/actionhero/actionhero/example/src/server.ts:31:3)","timestamp":"2020-02-10T05:19:03.230Z"}
+{"level":"notice","message":"stopping process...","timestamp":"2020-02-10T05:19:03.230Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2020-02-10T05:19:03.335Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2020-02-10T05:19:03.336Z"}
+{"level":"notice","message":"*** ActionHero Stopped ***","timestamp":"2020-02-10T05:19:03.343Z"}
+{"level":"warning","message":"an existing server with the same type `web` will be overridden by the file /Users/evan/workspace/actionhero/actionhero/web/dist/servers/web.js","timestamp":"2020-02-10T05:19:23.168Z"}
+{"level":"warning","message":"an existing server with the same type `websocket` will be overridden by the file /Users/evan/workspace/actionhero/actionhero/websocket/dist/servers/websocket.js","timestamp":"2020-02-10T05:19:23.169Z"}
+{"level":"notice","message":"pid: 51532","timestamp":"2020-02-10T05:19:23.172Z"}
+{"level":"notice","message":"environment: development","timestamp":"2020-02-10T05:19:23.173Z"}
+{"level":"info","message":"*** Starting ActionHero ***","timestamp":"2020-02-10T05:19:23.173Z"}
+{"level":"info","message":"actionhero member 192.168.7.33 has joined the cluster","timestamp":"2020-02-10T05:19:23.174Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2020-02-10T05:19:23.177Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2020-02-10T05:19:23.178Z"}
+{"level":"notice","message":"server ID: 192.168.7.33","timestamp":"2020-02-10T05:19:23.712Z"}
+{"level":"notice","message":"*** ActionHero Started ***","timestamp":"2020-02-10T05:19:23.712Z"}
+{"level":"notice","message":"stopping process...","timestamp":"2020-02-10T05:20:44.377Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2020-02-10T05:20:44.483Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2020-02-10T05:20:44.483Z"}
+{"level":"notice","message":"*** ActionHero Stopped ***","timestamp":"2020-02-10T05:20:44.490Z"}
+{"level":"warning","message":"an existing server with the same type `web` will be overridden by the file /Users/evan/workspace/actionhero/actionhero/web/dist/servers/web.js","timestamp":"2020-02-10T05:20:44.977Z"}
+{"level":"warning","message":"an existing server with the same type `websocket` will be overridden by the file /Users/evan/workspace/actionhero/actionhero/websocket/dist/servers/websocket.js","timestamp":"2020-02-10T05:20:44.978Z"}
+{"level":"notice","message":"pid: 51608","timestamp":"2020-02-10T05:20:44.980Z"}
+{"level":"notice","message":"environment: development","timestamp":"2020-02-10T05:20:44.980Z"}
+{"level":"info","message":"*** Starting ActionHero ***","timestamp":"2020-02-10T05:20:44.980Z"}
+{"level":"info","message":"actionhero member 192.168.7.33 has joined the cluster","timestamp":"2020-02-10T05:20:44.982Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2020-02-10T05:20:44.984Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2020-02-10T05:20:44.985Z"}
+{"level":"notice","message":"server ID: 192.168.7.33","timestamp":"2020-02-10T05:20:45.556Z"}
+{"level":"notice","message":"*** ActionHero Started ***","timestamp":"2020-02-10T05:20:45.556Z"}
+{"level":"notice","message":"stopping process...","timestamp":"2020-02-10T05:20:56.942Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2020-02-10T05:20:57.045Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2020-02-10T05:20:57.045Z"}
+{"level":"notice","message":"*** ActionHero Stopped ***","timestamp":"2020-02-10T05:20:57.052Z"}
+{"level":"warning","message":"an existing server with the same type `web` will be overridden by the file /Users/evan/workspace/actionhero/actionhero/web/dist/servers/web.js","timestamp":"2020-02-10T05:20:57.557Z"}
+{"level":"warning","message":"an existing server with the same type `websocket` will be overridden by the file /Users/evan/workspace/actionhero/actionhero/websocket/dist/servers/websocket.js","timestamp":"2020-02-10T05:20:57.558Z"}
+{"level":"notice","message":"pid: 51623","timestamp":"2020-02-10T05:20:57.560Z"}
+{"level":"notice","message":"environment: development","timestamp":"2020-02-10T05:20:57.560Z"}
+{"level":"info","message":"*** Starting ActionHero ***","timestamp":"2020-02-10T05:20:57.561Z"}
+{"level":"info","message":"actionhero member 192.168.7.33 has joined the cluster","timestamp":"2020-02-10T05:20:57.562Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2020-02-10T05:20:57.565Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2020-02-10T05:20:57.566Z"}
+{"level":"notice","message":"server ID: 192.168.7.33","timestamp":"2020-02-10T05:20:58.161Z"}
+{"level":"notice","message":"*** ActionHero Started ***","timestamp":"2020-02-10T05:20:58.161Z"}
+{"level":"notice","message":"stopping process...","timestamp":"2020-02-10T05:21:20.659Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2020-02-10T05:21:20.762Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2020-02-10T05:21:20.763Z"}
+{"level":"notice","message":"*** ActionHero Stopped ***","timestamp":"2020-02-10T05:21:20.770Z"}
+{"level":"warning","message":"an existing server with the same type `web` will be overridden by the file /Users/evan/workspace/actionhero/actionhero/web/dist/servers/web.js","timestamp":"2020-02-10T05:21:21.270Z"}
+{"level":"warning","message":"an existing server with the same type `websocket` will be overridden by the file /Users/evan/workspace/actionhero/actionhero/websocket/dist/servers/websocket.js","timestamp":"2020-02-10T05:21:21.272Z"}
+{"level":"notice","message":"pid: 51644","timestamp":"2020-02-10T05:21:21.274Z"}
+{"level":"notice","message":"environment: development","timestamp":"2020-02-10T05:21:21.274Z"}
+{"level":"info","message":"*** Starting ActionHero ***","timestamp":"2020-02-10T05:21:21.274Z"}
+{"level":"info","message":"actionhero member 192.168.7.33 has joined the cluster","timestamp":"2020-02-10T05:21:21.276Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2020-02-10T05:21:21.279Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2020-02-10T05:21:21.280Z"}
+{"level":"notice","message":"server ID: 192.168.7.33","timestamp":"2020-02-10T05:21:21.917Z"}
+{"level":"notice","message":"*** ActionHero Started ***","timestamp":"2020-02-10T05:21:21.917Z"}
+{"level":"notice","message":"stopping process...","timestamp":"2020-02-10T05:21:36.300Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2020-02-10T05:21:36.406Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2020-02-10T05:21:36.407Z"}
+{"level":"notice","message":"*** ActionHero Stopped ***","timestamp":"2020-02-10T05:21:36.413Z"}
+{"level":"warning","message":"an existing server with the same type `web` will be overridden by the file /Users/evan/workspace/actionhero/actionhero/web/dist/servers/web.js","timestamp":"2020-02-10T05:21:36.909Z"}
+{"level":"warning","message":"an existing server with the same type `websocket` will be overridden by the file /Users/evan/workspace/actionhero/actionhero/websocket/dist/servers/websocket.js","timestamp":"2020-02-10T05:21:36.910Z"}
+{"level":"notice","message":"pid: 51661","timestamp":"2020-02-10T05:21:36.912Z"}
+{"level":"notice","message":"environment: development","timestamp":"2020-02-10T05:21:36.912Z"}
+{"level":"info","message":"*** Starting ActionHero ***","timestamp":"2020-02-10T05:21:36.912Z"}
+{"level":"info","message":"actionhero member 192.168.7.33 has joined the cluster","timestamp":"2020-02-10T05:21:36.914Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2020-02-10T05:21:36.916Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2020-02-10T05:21:36.917Z"}
+{"level":"notice","message":"server ID: 192.168.7.33","timestamp":"2020-02-10T05:21:37.525Z"}
+{"level":"notice","message":"*** ActionHero Started ***","timestamp":"2020-02-10T05:21:37.525Z"}
+{"level":"notice","message":"stopping process...","timestamp":"2020-02-10T05:22:32.077Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2020-02-10T05:22:32.181Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2020-02-10T05:22:32.182Z"}
+{"level":"notice","message":"*** ActionHero Stopped ***","timestamp":"2020-02-10T05:22:32.189Z"}
+{"level":"emerg","message":"Exception occurred in initializer `servers` during load","timestamp":"2020-02-10T05:22:32.643Z"}
+{"level":"emerg","message":"Error with initializer step: \"initialize\"","timestamp":"2020-02-10T05:22:32.644Z"}
+{"level":"emerg","message":"ReferenceError: files is not defined\n    at Servers.initialize (/Users/evan/workspace/actionhero/actionhero/core/dist/initializers/servers.js:40:53)\n    at Object.initializeFunction (/Users/evan/workspace/actionhero/actionhero/core/dist/classes/process.js:99:47)\n    at Object.asyncWaterfall (/Users/evan/workspace/actionhero/actionhero/core/dist/modules/utils/asyncWaterfall.js:46:33)\n    at processTicksAndRejections (internal/process/task_queues.js:94:5)\n    at Process.initialize (/Users/evan/workspace/actionhero/actionhero/core/dist/classes/process.js:168:13)\n    at Process.start (/Users/evan/workspace/actionhero/actionhero/core/dist/classes/process.js:178:13)\n    at main (/Users/evan/workspace/actionhero/actionhero/example/src/server.ts:31:3)","timestamp":"2020-02-10T05:22:32.657Z"}
+{"level":"error","message":"Cannot shut down actionhero, not running","timestamp":"2020-02-10T05:22:32.657Z"}
+{"level":"warning","message":"an existing server with the same type `web` will be overridden by the file /Users/evan/workspace/actionhero/actionhero/web/dist/servers/web.js","timestamp":"2020-02-10T05:23:19.407Z"}
+{"level":"warning","message":"an existing server with the same type `websocket` will be overridden by the file /Users/evan/workspace/actionhero/actionhero/websocket/dist/servers/websocket.js","timestamp":"2020-02-10T05:23:19.409Z"}
+{"level":"notice","message":"pid: 51955","timestamp":"2020-02-10T05:23:19.412Z"}
+{"level":"notice","message":"environment: development","timestamp":"2020-02-10T05:23:19.413Z"}
+{"level":"info","message":"*** Starting ActionHero ***","timestamp":"2020-02-10T05:23:19.413Z"}
+{"level":"info","message":"actionhero member 192.168.7.33 has joined the cluster","timestamp":"2020-02-10T05:23:19.415Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2020-02-10T05:23:19.417Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2020-02-10T05:23:19.418Z"}
+{"level":"notice","message":"server ID: 192.168.7.33","timestamp":"2020-02-10T05:23:19.940Z"}
+{"level":"notice","message":"*** ActionHero Started ***","timestamp":"2020-02-10T05:23:19.940Z"}
+{"level":"notice","message":"stopping process...","timestamp":"2020-02-10T05:23:31.113Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2020-02-10T05:23:31.219Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2020-02-10T05:23:31.220Z"}
+{"level":"notice","message":"*** ActionHero Stopped ***","timestamp":"2020-02-10T05:23:31.228Z"}
+{"level":"warning","message":"an existing server with the same type `web` will be overridden by the file /Users/evan/workspace/actionhero/actionhero/web/dist/servers/web.js","timestamp":"2020-02-10T05:23:31.740Z"}
+{"level":"warning","message":"an existing server with the same type `websocket` will be overridden by the file /Users/evan/workspace/actionhero/actionhero/websocket/dist/servers/websocket.js","timestamp":"2020-02-10T05:23:31.741Z"}
+{"level":"notice","message":"pid: 51979","timestamp":"2020-02-10T05:23:31.743Z"}
+{"level":"notice","message":"environment: development","timestamp":"2020-02-10T05:23:31.743Z"}
+{"level":"info","message":"*** Starting ActionHero ***","timestamp":"2020-02-10T05:23:31.743Z"}
+{"level":"info","message":"actionhero member 192.168.7.33 has joined the cluster","timestamp":"2020-02-10T05:23:31.745Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2020-02-10T05:23:31.748Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2020-02-10T05:23:31.749Z"}
+{"level":"notice","message":"server ID: 192.168.7.33","timestamp":"2020-02-10T05:23:32.375Z"}
+{"level":"notice","message":"*** ActionHero Started ***","timestamp":"2020-02-10T05:23:32.375Z"}
+{"level":"notice","message":"stopping process...","timestamp":"2020-02-10T05:24:04.686Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2020-02-10T05:24:04.788Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2020-02-10T05:24:04.788Z"}
+{"level":"notice","message":"*** ActionHero Stopped ***","timestamp":"2020-02-10T05:24:04.795Z"}
+{"level":"notice","message":"pid: 52003","timestamp":"2020-02-10T05:24:05.285Z"}
+{"level":"notice","message":"environment: development","timestamp":"2020-02-10T05:24:05.286Z"}
+{"level":"info","message":"*** Starting ActionHero ***","timestamp":"2020-02-10T05:24:05.286Z"}
+{"level":"info","message":"actionhero member 192.168.7.33 has joined the cluster","timestamp":"2020-02-10T05:24:05.288Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2020-02-10T05:24:05.291Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2020-02-10T05:24:05.292Z"}
+{"level":"notice","message":"server ID: 192.168.7.33","timestamp":"2020-02-10T05:24:05.898Z"}
+{"level":"notice","message":"*** ActionHero Started ***","timestamp":"2020-02-10T05:24:05.899Z"}
+{"level":"notice","message":"stopping process...","timestamp":"2020-02-10T05:24:09.977Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2020-02-10T05:24:10.078Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2020-02-10T05:24:10.079Z"}
+{"level":"notice","message":"*** ActionHero Stopped ***","timestamp":"2020-02-10T05:24:10.086Z"}
+{"level":"notice","message":"pid: 52015","timestamp":"2020-02-10T05:24:10.579Z"}
+{"level":"notice","message":"environment: development","timestamp":"2020-02-10T05:24:10.580Z"}
+{"level":"info","message":"*** Starting ActionHero ***","timestamp":"2020-02-10T05:24:10.581Z"}
+{"level":"info","message":"actionhero member 192.168.7.33 has joined the cluster","timestamp":"2020-02-10T05:24:10.582Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2020-02-10T05:24:10.585Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2020-02-10T05:24:10.586Z"}
+{"level":"notice","message":"server ID: 192.168.7.33","timestamp":"2020-02-10T05:24:11.191Z"}
+{"level":"notice","message":"*** ActionHero Started ***","timestamp":"2020-02-10T05:24:11.191Z"}
+{"level":"notice","message":"stopping process...","timestamp":"2020-02-10T05:24:11.863Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2020-02-10T05:24:11.968Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2020-02-10T05:24:11.968Z"}
+{"level":"notice","message":"*** ActionHero Stopped ***","timestamp":"2020-02-10T05:24:11.973Z"}
+{"level":"notice","message":"pid: 52116","timestamp":"2020-02-10T05:24:14.850Z"}
+{"level":"notice","message":"environment: development","timestamp":"2020-02-10T05:24:14.852Z"}
+{"level":"info","message":"*** Starting ActionHero ***","timestamp":"2020-02-10T05:24:14.852Z"}
+{"level":"info","message":"actionhero member 192.168.7.33 has joined the cluster","timestamp":"2020-02-10T05:24:14.854Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2020-02-10T05:24:14.858Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2020-02-10T05:24:14.859Z"}
+{"level":"notice","message":"server ID: 192.168.7.33","timestamp":"2020-02-10T05:24:15.385Z"}
+{"level":"notice","message":"*** ActionHero Started ***","timestamp":"2020-02-10T05:24:15.385Z"}
+{"to":"127.0.0.1","file":"{not found}","requestedFile":"index.html","size":null,"duration":null,"success":false,"level":"info","message":"[ file @ web ]","timestamp":"2020-02-10T05:24:16.687Z"}
+{"to":"127.0.0.1","file":"{not found}","requestedFile":"favicon.ico","size":null,"duration":null,"success":false,"level":"info","message":"[ file @ web ]","timestamp":"2020-02-10T05:24:17.772Z"}
+{"to":"127.0.0.1","file":"{not found}","requestedFile":"index.html","size":null,"duration":null,"success":false,"level":"info","message":"[ file @ web ]","timestamp":"2020-02-10T05:24:22.942Z"}
+{"level":"notice","message":"stopping process...","timestamp":"2020-02-10T05:24:44.453Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2020-02-10T05:24:44.555Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2020-02-10T05:24:44.555Z"}
+{"level":"notice","message":"*** ActionHero Stopped ***","timestamp":"2020-02-10T05:24:44.558Z"}
+{"level":"notice","message":"pid: 52254","timestamp":"2020-02-10T05:24:46.877Z"}
+{"level":"notice","message":"environment: development","timestamp":"2020-02-10T05:24:46.879Z"}
+{"level":"info","message":"*** Starting ActionHero ***","timestamp":"2020-02-10T05:24:46.879Z"}
+{"level":"info","message":"actionhero member 192.168.7.33 has joined the cluster","timestamp":"2020-02-10T05:24:46.881Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2020-02-10T05:24:46.886Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2020-02-10T05:24:46.887Z"}
+{"level":"notice","message":"server ID: 192.168.7.33","timestamp":"2020-02-10T05:24:47.547Z"}
+{"level":"notice","message":"*** ActionHero Started ***","timestamp":"2020-02-10T05:24:47.548Z"}
+{"to":"127.0.0.1","file":"/Users/evan/workspace/actionhero/actionhero/example/public/index.html","requestedFile":"index.html","size":5057,"duration":5,"success":true,"level":"info","message":"[ file @ web ]","timestamp":"2020-02-10T05:24:48.699Z"}
+{"to":"127.0.0.1","file":"/Users/evan/workspace/actionhero/actionhero/example/public/javascript/ActionheroWebsocketClient.min.js","requestedFile":"javascript/ActionheroWebsocketClient.min.js","size":36651,"duration":1,"success":true,"level":"info","message":"[ file @ web ]","timestamp":"2020-02-10T05:24:48.790Z"}
+{"to":"127.0.0.1","action":"showDocumentation","params":"{\"action\":\"showDocumentation\"}","duration":3,"error":"Error: actionhero.errors.unknownAction","level":"info","message":"[ action @ web ]","timestamp":"2020-02-10T05:24:48.921Z"}
+{"level":"error","message":" ! Error: actionhero.errors.unknownAction","timestamp":"2020-02-10T05:24:48.942Z"}
+{"level":"error","message":" !     at ActionProcessor.completeAction (/Users/evan/workspace/actionhero/actionhero/core/dist/classes/actionProcessor.js:70:21)","timestamp":"2020-02-10T05:24:48.942Z"}
+{"level":"error","message":" !     at processTicksAndRejections (internal/process/task_queues.js:94:5)","timestamp":"2020-02-10T05:24:48.943Z"}
+{"to":"127.0.0.1","action":"status","params":"{\"action\":\"status\"}","duration":0,"error":"Error: actionhero.errors.unknownAction","level":"info","message":"[ action @ web ]","timestamp":"2020-02-10T05:24:48.944Z"}
+{"level":"error","message":" ! Error: actionhero.errors.unknownAction","timestamp":"2020-02-10T05:24:48.945Z"}
+{"level":"error","message":" !     at ActionProcessor.completeAction (/Users/evan/workspace/actionhero/actionhero/core/dist/classes/actionProcessor.js:70:21)","timestamp":"2020-02-10T05:24:48.945Z"}
+{"level":"error","message":" !     at processTicksAndRejections (internal/process/task_queues.js:94:5)","timestamp":"2020-02-10T05:24:48.945Z"}
+{"to":"127.0.0.1","file":"/Users/evan/workspace/actionhero/actionhero/example/public/index.html","requestedFile":"index.html","size":5057,"duration":1,"success":true,"level":"info","message":"[ file @ web ]","timestamp":"2020-02-10T05:24:49.957Z"}
+{"to":"127.0.0.1","file":"/Users/evan/workspace/actionhero/actionhero/example/public/javascript/ActionheroWebsocketClient.min.js","requestedFile":"javascript/ActionheroWebsocketClient.min.js","size":36651,"duration":1,"success":true,"level":"info","message":"[ file @ web ]","timestamp":"2020-02-10T05:24:49.977Z"}
+{"to":"127.0.0.1","file":"/Users/evan/workspace/actionhero/actionhero/example/public/logo/actionhero.png","requestedFile":"logo/actionhero.png","size":59273,"duration":2,"success":true,"level":"info","message":"[ file @ web ]","timestamp":"2020-02-10T05:24:49.978Z"}
+{"to":"127.0.0.1","file":"/Users/evan/workspace/actionhero/actionhero/example/public/css/cosmo.css","requestedFile":"css/cosmo.css","size":170032,"duration":2,"success":true,"level":"info","message":"[ file @ web ]","timestamp":"2020-02-10T05:24:49.979Z"}
+{"to":"127.0.0.1","action":"showDocumentation","params":"{\"action\":\"showDocumentation\"}","duration":0,"error":"Error: actionhero.errors.unknownAction","level":"info","message":"[ action @ web ]","timestamp":"2020-02-10T05:24:50.034Z"}
+{"level":"error","message":" ! Error: actionhero.errors.unknownAction","timestamp":"2020-02-10T05:24:50.034Z"}
+{"level":"error","message":" !     at ActionProcessor.completeAction (/Users/evan/workspace/actionhero/actionhero/core/dist/classes/actionProcessor.js:70:21)","timestamp":"2020-02-10T05:24:50.034Z"}
+{"level":"error","message":" !     at processTicksAndRejections (internal/process/task_queues.js:94:5)","timestamp":"2020-02-10T05:24:50.034Z"}
+{"to":"127.0.0.1","action":"status","params":"{\"action\":\"status\"}","duration":0,"error":"Error: actionhero.errors.unknownAction","level":"info","message":"[ action @ web ]","timestamp":"2020-02-10T05:24:50.035Z"}
+{"level":"error","message":" ! Error: actionhero.errors.unknownAction","timestamp":"2020-02-10T05:24:50.035Z"}
+{"level":"error","message":" !     at ActionProcessor.completeAction (/Users/evan/workspace/actionhero/actionhero/core/dist/classes/actionProcessor.js:70:21)","timestamp":"2020-02-10T05:24:50.036Z"}
+{"level":"error","message":" !     at processTicksAndRejections (internal/process/task_queues.js:94:5)","timestamp":"2020-02-10T05:24:50.036Z"}
+{"to":"127.0.0.1","file":"/Users/evan/workspace/actionhero/actionhero/example/public/favicon.ico","requestedFile":"favicon.ico","size":5430,"duration":1,"success":true,"level":"info","message":"[ file @ web ]","timestamp":"2020-02-10T05:24:50.088Z"}
+{"to":"127.0.0.1","file":"/Users/evan/workspace/actionhero/actionhero/example/public/index.html","requestedFile":"index.html","size":5057,"duration":0,"success":true,"level":"info","message":"[ file @ web ]","timestamp":"2020-02-10T05:24:50.514Z"}
+{"to":"127.0.0.1","file":"/Users/evan/workspace/actionhero/actionhero/example/public/css/cosmo.css","requestedFile":"css/cosmo.css","size":170032,"duration":1,"success":true,"level":"info","message":"[ file @ web ]","timestamp":"2020-02-10T05:24:50.530Z"}
+{"to":"127.0.0.1","file":"/Users/evan/workspace/actionhero/actionhero/example/public/javascript/ActionheroWebsocketClient.min.js","requestedFile":"javascript/ActionheroWebsocketClient.min.js","size":36651,"duration":1,"success":true,"level":"info","message":"[ file @ web ]","timestamp":"2020-02-10T05:24:50.532Z"}
+{"to":"127.0.0.1","file":"/Users/evan/workspace/actionhero/actionhero/example/public/logo/actionhero.png","requestedFile":"logo/actionhero.png","size":59273,"duration":1,"success":true,"level":"info","message":"[ file @ web ]","timestamp":"2020-02-10T05:24:50.532Z"}
+{"to":"127.0.0.1","action":"showDocumentation","params":"{\"action\":\"showDocumentation\"}","duration":0,"error":"Error: actionhero.errors.unknownAction","level":"info","message":"[ action @ web ]","timestamp":"2020-02-10T05:24:50.619Z"}
+{"level":"error","message":" ! Error: actionhero.errors.unknownAction","timestamp":"2020-02-10T05:24:50.620Z"}
+{"level":"error","message":" !     at ActionProcessor.completeAction (/Users/evan/workspace/actionhero/actionhero/core/dist/classes/actionProcessor.js:70:21)","timestamp":"2020-02-10T05:24:50.620Z"}
+{"level":"error","message":" !     at processTicksAndRejections (internal/process/task_queues.js:94:5)","timestamp":"2020-02-10T05:24:50.620Z"}
+{"to":"127.0.0.1","action":"status","params":"{\"action\":\"status\"}","duration":0,"error":"Error: actionhero.errors.unknownAction","level":"info","message":"[ action @ web ]","timestamp":"2020-02-10T05:24:50.621Z"}
+{"level":"error","message":" ! Error: actionhero.errors.unknownAction","timestamp":"2020-02-10T05:24:50.621Z"}
+{"level":"error","message":" !     at ActionProcessor.completeAction (/Users/evan/workspace/actionhero/actionhero/core/dist/classes/actionProcessor.js:70:21)","timestamp":"2020-02-10T05:24:50.621Z"}
+{"level":"error","message":" !     at processTicksAndRejections (internal/process/task_queues.js:94:5)","timestamp":"2020-02-10T05:24:50.621Z"}
+{"to":"127.0.0.1","file":"/Users/evan/workspace/actionhero/actionhero/example/public/favicon.ico","requestedFile":"favicon.ico","size":5430,"duration":1,"success":true,"level":"info","message":"[ file @ web ]","timestamp":"2020-02-10T05:24:50.664Z"}
+{"to":"127.0.0.1","action":"showDocumentation","params":"{\"action\":\"showDocumentation\"}","duration":0,"error":"Error: actionhero.errors.unknownAction","level":"info","message":"[ action @ web ]","timestamp":"2020-02-10T05:25:35.330Z"}
+{"level":"error","message":" ! Error: actionhero.errors.unknownAction","timestamp":"2020-02-10T05:25:35.331Z"}
+{"level":"error","message":" !     at ActionProcessor.completeAction (/Users/evan/workspace/actionhero/actionhero/core/dist/classes/actionProcessor.js:70:21)","timestamp":"2020-02-10T05:25:35.331Z"}
+{"level":"error","message":" !     at processTicksAndRejections (internal/process/task_queues.js:94:5)","timestamp":"2020-02-10T05:25:35.331Z"}
+{"to":"127.0.0.1","action":"status","params":"{\"action\":\"status\"}","duration":0,"error":"Error: actionhero.errors.unknownAction","level":"info","message":"[ action @ web ]","timestamp":"2020-02-10T05:25:35.332Z"}
+{"level":"error","message":" ! Error: actionhero.errors.unknownAction","timestamp":"2020-02-10T05:25:35.333Z"}
+{"level":"error","message":" !     at ActionProcessor.completeAction (/Users/evan/workspace/actionhero/actionhero/core/dist/classes/actionProcessor.js:70:21)","timestamp":"2020-02-10T05:25:35.333Z"}
+{"level":"error","message":" !     at processTicksAndRejections (internal/process/task_queues.js:94:5)","timestamp":"2020-02-10T05:25:35.333Z"}
+{"to":"127.0.0.1","file":"/Users/evan/workspace/actionhero/actionhero/example/public/favicon.ico","requestedFile":"favicon.ico","size":5430,"duration":1,"success":true,"level":"info","message":"[ file @ web ]","timestamp":"2020-02-10T05:25:35.336Z"}
+{"level":"notice","message":"stopping process...","timestamp":"2020-02-10T05:25:37.940Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2020-02-10T05:25:38.042Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2020-02-10T05:25:38.042Z"}
+{"level":"notice","message":"*** ActionHero Stopped ***","timestamp":"2020-02-10T05:25:38.045Z"}
+{"level":"alert","message":"! Failed to load /Users/evan/workspace/actionhero/actionhero/example/src/actions/cacheTest.ts","timestamp":"2020-02-10T05:25:42.116Z"}
+{"level":"alert","message":"! Error: Cannot find module './../index'","timestamp":"2020-02-10T05:25:42.122Z"}
+{"level":"alert","message":"! Require stack:","timestamp":"2020-02-10T05:25:42.122Z"}
+{"level":"alert","message":"! - /Users/evan/workspace/actionhero/actionhero/example/src/actions/cacheTest.ts","timestamp":"2020-02-10T05:25:42.123Z"}
+{"level":"alert","message":"! - /Users/evan/workspace/actionhero/actionhero/core/dist/initializers/actions.js","timestamp":"2020-02-10T05:25:42.123Z"}
+{"level":"alert","message":"! - /Users/evan/workspace/actionhero/actionhero/core/dist/classes/process.js","timestamp":"2020-02-10T05:25:42.123Z"}
+{"level":"alert","message":"! - /Users/evan/workspace/actionhero/actionhero/core/dist/index.js","timestamp":"2020-02-10T05:25:42.123Z"}
+{"level":"alert","message":"! - /Users/evan/workspace/actionhero/actionhero/example/src/server.ts","timestamp":"2020-02-10T05:25:42.123Z"}
+{"level":"alert","message":"!     at Function.Module._resolveFilename (internal/modules/cjs/loader.js:793:17)","timestamp":"2020-02-10T05:25:42.123Z"}
+{"level":"alert","message":"!     at Function.Module._load (internal/modules/cjs/loader.js:686:27)","timestamp":"2020-02-10T05:25:42.123Z"}
+{"level":"alert","message":"!     at Module.require (internal/modules/cjs/loader.js:848:19)","timestamp":"2020-02-10T05:25:42.123Z"}
+{"level":"alert","message":"!     at require (internal/modules/cjs/helpers.js:74:18)","timestamp":"2020-02-10T05:25:42.123Z"}
+{"level":"alert","message":"!     at Object.<anonymous> (/Users/evan/workspace/actionhero/actionhero/example/src/actions/cacheTest.ts:1:1)","timestamp":"2020-02-10T05:25:42.123Z"}
+{"level":"alert","message":"!     at Module._compile (internal/modules/cjs/loader.js:955:30)","timestamp":"2020-02-10T05:25:42.123Z"}
+{"level":"alert","message":"!     at Module._compile (/Users/evan/workspace/actionhero/actionhero/example/node_modules/source-map-support/source-map-support.js:541:25)","timestamp":"2020-02-10T05:25:42.123Z"}
+{"level":"alert","message":"!     at Module.m._compile (/private/var/folders/r8/vz_8qsqs7632_c6s2rtg4ry80000gn/T/ts-node-dev-hook-9525178990263596.js:57:25)","timestamp":"2020-02-10T05:25:42.123Z"}
+{"level":"alert","message":"!     at Module._extensions..js (internal/modules/cjs/loader.js:991:10)","timestamp":"2020-02-10T05:25:42.124Z"}
+{"level":"alert","message":"!     at require.extensions.<computed> (/private/var/folders/r8/vz_8qsqs7632_c6s2rtg4ry80000gn/T/ts-node-dev-hook-9525178990263596.js:59:14)","timestamp":"2020-02-10T05:25:42.124Z"}
+{"level":"alert","message":"*","timestamp":"2020-02-10T05:25:42.124Z"}
+{"level":"emerg","message":"Exception occurred in initializer `actions` during load","timestamp":"2020-02-10T05:25:42.125Z"}
+{"level":"emerg","message":"Error with initializer step: \"initialize\"","timestamp":"2020-02-10T05:25:42.125Z"}
+{"level":"emerg","message":"Error: Cannot find module './../index'\nRequire stack:\n- /Users/evan/workspace/actionhero/actionhero/example/src/actions/cacheTest.ts\n- /Users/evan/workspace/actionhero/actionhero/core/dist/initializers/actions.js\n- /Users/evan/workspace/actionhero/actionhero/core/dist/classes/process.js\n- /Users/evan/workspace/actionhero/actionhero/core/dist/index.js\n- /Users/evan/workspace/actionhero/actionhero/example/src/server.ts\n    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:793:17)\n    at Function.Module._load (internal/modules/cjs/loader.js:686:27)\n    at Module.require (internal/modules/cjs/loader.js:848:19)\n    at require (internal/modules/cjs/helpers.js:74:18)\n    at Object.<anonymous> (/Users/evan/workspace/actionhero/actionhero/example/src/actions/cacheTest.ts:1:1)\n    at Module._compile (internal/modules/cjs/loader.js:955:30)\n    at Module._compile (/Users/evan/workspace/actionhero/actionhero/example/node_modules/source-map-support/source-map-support.js:541:25)\n    at Module.m._compile (/private/var/folders/r8/vz_8qsqs7632_c6s2rtg4ry80000gn/T/ts-node-dev-hook-9525178990263596.js:57:25)\n    at Module._extensions..js (internal/modules/cjs/loader.js:991:10)\n    at require.extensions.<computed> (/private/var/folders/r8/vz_8qsqs7632_c6s2rtg4ry80000gn/T/ts-node-dev-hook-9525178990263596.js:59:14)","timestamp":"2020-02-10T05:25:42.125Z"}
+{"level":"error","message":"Cannot shut down actionhero, not running","timestamp":"2020-02-10T05:25:42.125Z"}
+{"level":"notice","message":"pid: 54010","timestamp":"2020-02-10T05:27:20.467Z"}
+{"level":"notice","message":"environment: development","timestamp":"2020-02-10T05:27:20.469Z"}
+{"level":"info","message":"*** Starting ActionHero ***","timestamp":"2020-02-10T05:27:20.469Z"}
+{"level":"info","message":"actionhero member 192.168.7.33 has joined the cluster","timestamp":"2020-02-10T05:27:20.471Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2020-02-10T05:27:20.474Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2020-02-10T05:27:20.475Z"}
+{"level":"notice","message":"server ID: 192.168.7.33","timestamp":"2020-02-10T05:27:20.989Z"}
+{"level":"notice","message":"*** ActionHero Started ***","timestamp":"2020-02-10T05:27:20.989Z"}
+{"to":"127.0.0.1","file":"/Users/evan/workspace/actionhero/actionhero/example/public/javascript/ActionheroWebsocketClient.min.js","requestedFile":"javascript/ActionheroWebsocketClient.min.js","size":36651,"duration":1,"success":true,"level":"info","message":"[ file @ web ]","timestamp":"2020-02-10T05:27:22.247Z"}
+{"to":"127.0.0.1","action":"showDocumentation","params":"{\"action\":\"showDocumentation\",\"apiVersion\":1}","duration":1,"error":"","level":"info","message":"[ action @ web ]","timestamp":"2020-02-10T05:27:22.266Z"}
+{"to":"127.0.0.1","file":"/Users/evan/workspace/actionhero/actionhero/example/public/favicon.ico","requestedFile":"favicon.ico","size":5430,"duration":1,"success":true,"level":"info","message":"[ file @ web ]","timestamp":"2020-02-10T05:27:22.271Z"}
+{"to":"127.0.0.1","action":"status","params":"{\"action\":\"status\",\"apiVersion\":1}","duration":12,"error":"","level":"info","message":"[ action @ web ]","timestamp":"2020-02-10T05:27:22.280Z"}
+{"to":"127.0.0.1","level":"info","message":"[server: websocket] new connection","timestamp":"2020-02-10T05:27:25.211Z"}
+{"to":"127.0.0.1","action":"createChatRoom","params":"{\"name\":\"defaultRoom\",\"action\":\"createChatRoom\",\"apiVersion\":1}","duration":1,"error":"Error: room exists","level":"info","message":"[ action @ websocket ]","timestamp":"2020-02-10T05:27:25.216Z"}
+{"level":"error","message":" ! Error: room exists","timestamp":"2020-02-10T05:27:25.236Z"}
+{"level":"error","message":" !     at Object.add (/Users/evan/workspace/actionhero/actionhero/core/dist/modules/chatRoom.js:75:19)","timestamp":"2020-02-10T05:27:25.236Z"}
+{"level":"error","message":" !     at processTicksAndRejections (internal/process/task_queues.js:94:5)","timestamp":"2020-02-10T05:27:25.236Z"}
+{"level":"error","message":" !     at CreateChatRoom.run (/Users/evan/workspace/actionhero/actionhero/example/src/actions/createChatRoom.ts:16:26)","timestamp":"2020-02-10T05:27:25.236Z"}
+{"level":"error","message":" !     at ActionProcessor.runAction (/Users/evan/workspace/actionhero/actionhero/core/dist/classes/actionProcessor.js:311:17)","timestamp":"2020-02-10T05:27:25.236Z"}
+{"level":"error","message":" !     at WebSocketServer.processAction (/Users/evan/workspace/actionhero/actionhero/core/dist/classes/server.js:130:22)","timestamp":"2020-02-10T05:27:25.236Z"}
+{"level":"notice","message":"stopping process...","timestamp":"2020-02-10T05:27:37.385Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2020-02-10T05:27:37.486Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2020-02-10T05:27:37.486Z"}
+{"level":"info","message":"Error: Connection is closed.\n    at close (/Users/evan/workspace/actionhero/actionhero/example/node_modules/ioredis/built/redis/event_handler.js:115:25)\n    at Socket.<anonymous> (/Users/evan/workspace/actionhero/actionhero/example/node_modules/ioredis/built/redis/event_handler.js:82:20)\n    at Object.onceWrapper (events.js:313:26)\n    at Socket.emit (events.js:223:5)\n    at TCP.<anonymous> (net.js:664:12)","timestamp":"2020-02-10T05:27:37.491Z"}
+{"level":"notice","message":"pid: 54213","timestamp":"2020-02-10T05:28:43.812Z"}
+{"level":"notice","message":"environment: development","timestamp":"2020-02-10T05:28:43.814Z"}
+{"level":"info","message":"*** Starting ActionHero ***","timestamp":"2020-02-10T05:28:43.814Z"}
+{"level":"info","message":"actionhero member 192.168.7.33 has joined the cluster","timestamp":"2020-02-10T05:28:43.815Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2020-02-10T05:28:43.818Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2020-02-10T05:28:43.820Z"}
+{"level":"notice","message":"server ID: 192.168.7.33","timestamp":"2020-02-10T05:28:44.401Z"}
+{"level":"notice","message":"*** ActionHero Started ***","timestamp":"2020-02-10T05:28:44.401Z"}
+{"level":"notice","message":"stopping process...","timestamp":"2020-02-10T05:28:45.917Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2020-02-10T05:28:46.018Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2020-02-10T05:28:46.019Z"}
+{"level":"notice","message":"*** ActionHero Stopped ***","timestamp":"2020-02-10T05:28:46.024Z"}
+{"level":"notice","message":"pid: 55465","timestamp":"2020-02-10T05:31:22.451Z"}
+{"level":"notice","message":"environment: development","timestamp":"2020-02-10T05:31:22.452Z"}
+{"level":"info","message":"*** Starting ActionHero ***","timestamp":"2020-02-10T05:31:22.453Z"}
+{"level":"info","message":"actionhero member 192.168.7.33 has joined the cluster","timestamp":"2020-02-10T05:31:22.454Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2020-02-10T05:31:22.457Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2020-02-10T05:31:22.459Z"}
+{"level":"notice","message":"server ID: 192.168.7.33","timestamp":"2020-02-10T05:31:23.156Z"}
+{"level":"notice","message":"*** ActionHero Started ***","timestamp":"2020-02-10T05:31:23.157Z"}
+{"level":"notice","message":"stopping process...","timestamp":"2020-02-10T05:31:26.968Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2020-02-10T05:31:27.069Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2020-02-10T05:31:27.069Z"}
+{"level":"notice","message":"*** ActionHero Stopped ***","timestamp":"2020-02-10T05:31:27.075Z"}
