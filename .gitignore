@@ -1,9 +1,9 @@
 # ActionHero files
 pids/*
-tmp/*
-log/*
-cache/*
-coverage/*
+tmp
+log
+cache
+coverage
 node_modules
 locales/test-env-*
 public/javascript/ActionheroWebsocketClient.js

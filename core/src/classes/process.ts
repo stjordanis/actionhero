@@ -23,19 +23,12 @@ export class Process {
   loadInitializers: Array<Function>;
   startInitializers: Array<Function>;
   stopInitializers: Array<Function>;
-  plugins: {
-    [name: string]: {
-      path: string;
-      [key: string]: any;
-    };
-  };
 
   constructor() {
     this.initializers = {};
     this.loadInitializers = [];
     this.startInitializers = [];
     this.stopInitializers = [];
-    this.plugins = {};
 
     this.startCount = 0;
 
@@ -56,15 +49,6 @@ export class Process {
     };
 
     api.process = this;
-  }
-
-  /**
-   * Add a plugin
-   * @param name
-   * @param object
-   */
-  addPlugin(name: string, object: { path: string; [key: string]: any }) {
-    this.plugins[name] = object;
   }
 
   async initialize() {
@@ -88,8 +72,10 @@ export class Process {
     });
 
     // load initializers from plugins
-    for (const pluginName in this.plugins) {
-      const pluginPath: string = path.normalize(this.plugins[pluginName].path);
+    for (const pluginName in config.plugins) {
+      const pluginPath: string = path.normalize(
+        config.plugins[pluginName].path
+      );
 
       if (!fs.existsSync(pluginPath)) {
         throw new Error(`plugin path does not exist: ${pluginPath}`);
@@ -320,6 +306,57 @@ export class Process {
       await this.start();
     }
     return api;
+  }
+
+  /**
+   * Register listeners for process signals and uncaught exceptions & rejections.
+   * Try to gracefully shut down when signaled to do so
+   */
+  registerProcessSignals() {
+    function awaitHardStop() {
+      const timeout = process.env.ACTIONHERO_SHUTDOWN_TIMEOUT
+        ? parseInt(process.env.ACTIONHERO_SHUTDOWN_TIMEOUT)
+        : 1000 * 30;
+      return setTimeout(() => {
+        console.error(
+          `Process did not terminate within ${timeout}ms. Stopping now!`
+        );
+        process.nextTick(process.exit(1));
+      }, timeout);
+    }
+
+    // handle errors & rejections
+    process.on("uncaughtException", (error: Error) => {
+      log(error.stack, "fatal");
+      process.nextTick(process.exit(1));
+    });
+
+    process.on("unhandledRejection", (rejection: Error) => {
+      log(rejection.stack, "fatal");
+      process.nextTick(process.exit(1));
+    });
+
+    // handle signals
+    process.on("SIGINT", async () => {
+      log(`[ SIGNAL ] - SIGINT`, "notice");
+      let timer = awaitHardStop();
+      await this.stop();
+      clearTimeout(timer);
+    });
+
+    process.on("SIGTERM", async () => {
+      log(`[ SIGNAL ] - SIGTERM`, "notice");
+      let timer = awaitHardStop();
+      await this.stop();
+      clearTimeout(timer);
+    });
+
+    process.on("SIGUSR2", async () => {
+      log(`[ SIGNAL ] - SIGUSR2`, "notice");
+      let timer = awaitHardStop();
+      await this.restart();
+      clearTimeout(timer);
+    });
   }
 
   // HELPERS

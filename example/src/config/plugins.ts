@@ -1,8 +1,13 @@
 export const DEFAULT = {
-  plugins: config => {
+  plugins: () => {
     return {
-      web: { path: `${__dirname}/../../../web` },
-      websocket: { path: `${__dirname}/../../../websocket` }
+      web: {
+        path: `${__dirname}/../../node_modules/@actionhero/web`
+      },
+      websocket: {
+        path: `${__dirname}/../../node_modules/@actionhero/websocket`
+      }
+      // cache: { path: `${__dirname}/../../../cache` }
     };
   }
 };

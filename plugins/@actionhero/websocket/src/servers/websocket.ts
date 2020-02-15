@@ -4,7 +4,14 @@ import * as fs from "fs";
 import * as path from "path";
 import * as util from "util";
 import * as uuid from "uuid";
-import { api, config, utils, log, Server, Connection } from "../../../core";
+import {
+  api,
+  config,
+  utils,
+  log,
+  Server,
+  Connection
+} from "../../../../../core/dist";
 
 export class WebSocketServer extends Server {
   server: any;
