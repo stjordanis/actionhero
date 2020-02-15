@@ -2,7 +2,7 @@ import * as request from "request-promise-native";
 import * as fs from "fs";
 import * as os from "os";
 import * as path from "path";
-import { Process, config, utils, route } from "./../../../src/index";
+import { Process, config, utils, route } from "./../../../../../../core";
 
 const actionhero = new Process();
 let api;
@@ -248,7 +248,7 @@ describe("Server: Web", () => {
   });
 
   test("real actions do not have an error response", async () => {
-    const body = await request.get(url + "/api/status").then(toJson);
+    const body = await request.get(url + "/api/simpleStatus").then(toJson);
     expect(body.error).toBeUndefined();
   });
 
@@ -278,7 +278,7 @@ describe("Server: Web", () => {
 
   test("HTTP Verbs should work: Post with Form", async () => {
     try {
-      await request.post(url + "/api/cacheTest", { form: { key: "key" } });
+      await request.post(url + "/api/formTest", { form: { key: "key" } });
       throw new Error("should not get here");
     } catch (error) {
       expect(error.statusCode).toEqual(422);
@@ -288,15 +288,15 @@ describe("Server: Web", () => {
     }
 
     const successBody = await request
-      .post(url + "/api/cacheTest", { form: { key: "key", value: "value" } })
+      .post(url + "/api/formTest", { form: { key: "key", value: "value" } })
       .then(toJson);
-    expect(successBody.cacheTestResults.saveResp).toEqual(true);
+    expect(successBody.status).toEqual("ok");
   });
 
   test("HTTP Verbs should work: Post with JSON Payload as body", async () => {
     let bodyPayload = JSON.stringify({ key: "key" });
     try {
-      await request.post(url + "/api/cacheTest", {
+      await request.post(url + "/api/formTest", {
         body: bodyPayload,
         headers: { "Content-type": "application/json" }
       });
@@ -310,12 +310,12 @@ describe("Server: Web", () => {
 
     bodyPayload = JSON.stringify({ key: "key", value: "value" });
     const successBody = await request
-      .post(url + "/api/cacheTest", {
+      .post(url + "/api/formTest", {
         body: bodyPayload,
         headers: { "Content-type": "application/json" }
       })
       .then(toJson);
-    expect(successBody.cacheTestResults.saveResp).toEqual(true);
+    expect(successBody.status).toEqual("ok");
   });
 
   describe("messageId", () => {
@@ -740,28 +740,28 @@ describe("Server: Web", () => {
     });
   });
 
-  describe("documentation", () => {
-    test("documentation can be returned via a documentation action", async () => {
-      const body = await request
-        .get(url + "/api/showDocumentation")
-        .then(toJson);
-      expect(body.documentation).toBeInstanceOf(Object);
-    });
+  // describe("documentation", () => {
+  //   test("documentation can be returned via a documentation action", async () => {
+  //     const body = await request
+  //       .get(url + "/api/showDocumentation")
+  //       .then(toJson);
+  //     expect(body.documentation).toBeInstanceOf(Object);
+  //   });
 
-    test("should have actions with all the right parts", async () => {
-      const body = await request
-        .get(url + "/api/showDocumentation")
-        .then(toJson);
-      for (const actionName in body.documentation) {
-        for (const version in body.documentation[actionName]) {
-          const action = body.documentation[actionName][version];
-          expect(typeof action.name).toEqual("string");
-          expect(typeof action.description).toEqual("string");
-          expect(action.inputs).toBeInstanceOf(Object);
-        }
-      }
-    });
-  });
+  //   test("should have actions with all the right parts", async () => {
+  //     const body = await request
+  //       .get(url + "/api/showDocumentation")
+  //       .then(toJson);
+  //     for (const actionName in body.documentation) {
+  //       for (const version in body.documentation[actionName]) {
+  //         const action = body.documentation[actionName][version];
+  //         expect(typeof action.name).toEqual("string");
+  //         expect(typeof action.description).toEqual("string");
+  //         expect(action.inputs).toBeInstanceOf(Object);
+  //       }
+  //     }
+  //   });
+  // });
 
   describe("files", () => {
     test("an HTML file", async () => {

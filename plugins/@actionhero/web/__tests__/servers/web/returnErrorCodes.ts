@@ -1,8 +1,17 @@
 import * as request from "request-promise-native";
-import { Process, config } from "./../../../src/index";
+import { Process, config } from "./../../../../../../core";
 
 const actionhero = new Process();
+let api;
 let url;
+
+const toJson = async string => {
+  try {
+    return JSON.parse(string);
+  } catch (error) {
+    return error;
+  }
+};
 
 jest.mock("./../../../src/config/servers/web.ts", () => ({
   __esModule: true,
@@ -10,6 +19,7 @@ jest.mock("./../../../src/config/servers/web.ts", () => ({
     servers: {
       web: () => {
         return {
+          returnErrorCodes: false,
           enabled: true,
           secure: false,
           urlPathForActions: "api",
@@ -34,7 +44,7 @@ jest.mock("./../../../src/config/servers/web.ts", () => ({
 
 describe("Server: Web", () => {
   beforeAll(async () => {
-    await actionhero.start();
+    api = await actionhero.start();
     url = "http://localhost:" + config.servers.web.port;
   });
 
@@ -42,21 +52,13 @@ describe("Server: Web", () => {
     await actionhero.stop();
   });
 
-  describe("JSONp", () => {
-    test("can ask for JSONp responses", async () => {
-      const response = await request.get(
-        url + "/api/randomNumber?callback=myCallback"
-      );
-      expect(response.indexOf("myCallback({")).toEqual(0);
-      expect(response.indexOf("Your random number is")).toBeGreaterThan(0);
-    });
-
-    test("JSONp responses cannot be used for XSS", async () => {
-      const response = await request.get(
-        url + "/api/randomNumber?callback=alert(%27hi%27);foo"
-      );
-      expect(response).not.toMatch(/alert\(/);
-      expect(response.indexOf("alert&#39;hi&#39;;foo(")).toEqual(0);
+  describe("errorCodes", () => {
+    test("returnErrorCodes false should still have a status of 200", async () => {
+      config.servers.web.returnErrorCodes = false;
+      const response = await request.del(url + "/api/", {
+        resolveWithFullResponse: true
+      });
+      expect(response.statusCode).toEqual(200);
     });
   });
 });

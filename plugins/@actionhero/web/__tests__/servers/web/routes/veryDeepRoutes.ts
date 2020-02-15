@@ -1,5 +1,5 @@
 import * as request from "request-promise-native";
-import { Process, config } from "./../../../../src/index";
+import { Process, config } from "./../../../../../../../core";
 
 const actionhero = new Process();
 let url;

@@ -22,6 +22,7 @@
     "uglify-js": "^3.7.7"
   },
   "devDependencies": {
+    "@actionhero/web": "./../web",
     "@types/jest": "^25.1.2",
     "@types/node": "^13.7.0",
     "jest": "^25.1.0",

@@ -2,7 +2,7 @@ import * as request from "request-promise-native";
 import * as fs from "fs";
 import * as os from "os";
 import * as path from "path";
-import { Process, config, route } from "../../../../src/index";
+import { Process, route, config } from "./../../../../../../../core";
 
 const actionhero = new Process();
 let api;
@@ -101,7 +101,7 @@ describe("Server: Web", () => {
         get: [
           { path: "/bogus/:bogusID", action: "bogusAction" },
           { path: "/users", action: "usersList" },
-          { path: "/c/:key/:value", action: "cacheTest" },
+          { path: "/c/:key/:value", action: "formTest" },
           { path: "/mimeTestAction/:key", action: "mimeTestAction" },
           { path: "/thing", action: "thing" },
           { path: "/thing/stuff", action: "thingStuff" },
@@ -329,7 +329,7 @@ describe("Server: Web", () => {
         .get(url + "/api/c/key/log_me-in.com$123.")
         .then(toJson);
       expect(body.requesterInformation.receivedParams.action).toEqual(
-        "cacheTest"
+        "formTest"
       );
       expect(body.requesterInformation.receivedParams.value).toEqual(
         "log_me-in.com$123."
