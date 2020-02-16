@@ -65,28 +65,43 @@ export class Servers extends Initializer {
         throw new Error(`server file ${filename} exports more than one server`);
       }
 
-      const server = new ExportedClasses[Object.keys(ExportedClasses)[0]]();
-      server.config = config.servers[server.type]; // shorthand access
-      if (server.config && server.config.enabled === true) {
-        await server.initialize();
+      const server: Server = new ExportedClasses[
+        Object.keys(ExportedClasses)[0]
+      ]();
 
+      if (config.servers[server.type]?.enabled === true) {
         if (api.servers.servers[server.type]) {
           log(
             `an existing server with the same type \`${server.type}\` will be overridden by the file ${filename}`,
             "warning"
           );
         }
-
+        server.config = config.servers[server.type]; // shorthand access
         api.servers.servers[server.type] = server;
-        log(`Initialized server: ${server.type}`, "debug");
       }
+    }
+
+    for (const serverName in api.servers.servers) {
+      const server = api.servers.servers[serverName];
+      await server.initialize();
+      log(`Initialized server: ${server.type}`, "debug");
     }
   }
 
   async start() {
-    const serverNames = Object.keys(api.servers.servers);
-    for (const i in serverNames) {
-      const serverName = serverNames[i];
+    const sortedServerNames = Object.keys(api.servers.servers).sort((a, b) => {
+      return (
+        (api.servers.servers[a].dependencies
+          ? api.servers.servers[a].dependencies.length
+          : 0) -
+        (api.servers.servers[b].dependencies
+          ? api.servers.servers[b].dependencies.length
+          : 0)
+      );
+    });
+
+    for (const i in sortedServerNames) {
+      const serverName = sortedServerNames[i];
       const server = api.servers.servers[serverName];
       if (server && server.config.enabled === true) {
         let message = "";

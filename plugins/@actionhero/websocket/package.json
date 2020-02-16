@@ -21,14 +21,15 @@
     "primus": "^7.3.4",
     "uglify-js": "^3.7.7"
   },
+  "peerDependencies": {
+    "@actionhero/web": "^22.0.0"
+  },
   "devDependencies": {
     "@actionhero/web": "./../web",
     "@types/jest": "^25.1.2",
     "@types/node": "^13.7.0",
     "jest": "^25.1.0",
     "prettier": "^1.19.1",
-    "request": "^2.88.0",
-    "request-promise-native": "^1.0.8",
     "ts-jest": "^25.2.0",
     "typescript": "^3.7.5"
   },

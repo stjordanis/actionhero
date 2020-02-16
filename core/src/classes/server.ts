@@ -14,6 +14,8 @@ interface ServerConfig {
 export abstract class Server extends EventEmitter {
   /**The name & type of the server. */
   type: string;
+  /** any other servers that this server depends on */
+  dependencies?: Array<string>;
   /**What connection verbs can connections of this type use? */
   verbs?: Array<string>;
   /**Shorthand for `api.config.servers[this.type]` */

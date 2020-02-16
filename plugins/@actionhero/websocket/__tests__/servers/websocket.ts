@@ -1,7 +1,7 @@
 "use strict";
 // we need to use 'use strict' here because we are relying on EVAL to load a variable
 
-import { Process, config, chatRoom, utils } from "./../../src/index";
+import { Process, config, chatRoom, utils } from "./../../../../../core";
 
 const actionhero = new Process();
 let api;
@@ -132,7 +132,7 @@ describe("Server: Web Socket", () => {
     });
 
     test("can run actions with errors", async () => {
-      const response = await awaitAction(clientA, "cacheTest");
+      const response = await awaitAction(clientA, "formTest");
       expect(response.error).toEqual(
         "key is a required parameter for this action"
       );
@@ -189,24 +189,22 @@ describe("Server: Web Socket", () => {
     });
 
     test("can run actions properly with params", async () => {
-      const response = await awaitAction(clientA, "cacheTest", {
+      const response = await awaitAction(clientA, "formTest", {
         key: "test key",
         value: "test value"
       });
       expect(response.error).toBeUndefined();
-      expect(response.cacheTestResults).toBeTruthy();
+      expect(response.status).toBe("ok");
     });
 
     test("does not have sticky params", async () => {
-      const response = await awaitAction(clientA, "cacheTest", {
+      const response = await awaitAction(clientA, "formTest", {
         key: "test key",
         value: "test value"
       });
-      expect(response.cacheTestResults.loadResp.key).toEqual(
-        "cacheTest_test key"
-      );
-      expect(response.cacheTestResults.loadResp.value).toEqual("test value");
-      const responseAgain = await awaitAction(clientA, "cacheTest");
+      expect(response.key).toEqual("test key");
+      expect(response.value).toEqual("test value");
+      const responseAgain = await awaitAction(clientA, "formTest");
       expect(responseAgain.error).toEqual(
         "key is a required parameter for this action"
       );

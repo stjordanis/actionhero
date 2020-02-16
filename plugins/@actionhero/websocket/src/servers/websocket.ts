@@ -11,13 +11,14 @@ import {
   log,
   Server,
   Connection
-} from "../../../../../core/dist";
+} from "../../../../../core";
 
 export class WebSocketServer extends Server {
   server: any;
 
   constructor() {
     super();
+    this.dependencies = ["web"];
     this.type = "websocket";
 
     this.attributes = {
